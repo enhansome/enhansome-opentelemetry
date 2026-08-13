@@ -1,0 +1,387 @@
+{
+  "items": [
+    {
+      "description": "OpenTelemetry is a collection of tools, APIs, and SDKs. Use it to instrument, generate, collect, and export telemetry data (metrics, logs, and traces) to help you analyze your software’s performance and behavior",
+      "items": [],
+      "title": "What is OpenTelemetry?"
+    },
+    {
+      "description": "Contributions welcome! Read the contribution guidelines first.",
+      "items": [],
+      "title": "Contribute"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Distributed Tracing Solutions"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Manifest",
+          "description": "(GitHub) - Open-source real-time cost observability for AI agents. OTLP-native, accepts standard OpenTelemetry signals via HTTP (JSON and Protobuf). Tracks tokens, costs, messages, and model usage. Self-hostable and privacy-focused.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-12T14:17:18Z",
+            "owner": "mnfst",
+            "repo": "manifest",
+            "stars": 7437
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Tracetest",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2025-06-03T15:24:46Z",
+            "owner": "kubeshop",
+            "repo": "tracetest",
+            "stars": 1326
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Teletrace",
+          "description": "Deprecated",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "language": "Go",
+            "last_commit": "2023-07-19T22:05:19Z",
+            "owner": "teletrace",
+            "repo": "teletrace",
+            "stars": 629
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "traceAI",
+          "description": "Open-source OpenTelemetry-native instrumentation framework for AI applications that auto-instruments 20+ LLM providers and agent frameworks, capturing prompts, tokens, latency, and errors with zero code changes.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-11T12:50:10Z",
+            "owner": "future-agi",
+            "repo": "traceAI",
+            "stars": 212
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Agent-SRE",
+          "description": "AI-native SRE framework with OTel-compatible SLI/SLO metrics, chaos test spans, and canary deployment traces for AI agent observability",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "language": "Python",
+            "last_commit": "2026-03-03T22:59:56Z",
+            "owner": "imran-siddique",
+            "repo": "agent-sre",
+            "stars": 7
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Agent-Hypervisor",
+          "description": "Runtime supervisor for multi-agent systems with a structured event bus (40+ event types) that exports ring transitions, saga steps, and liability events as distributed traces",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "language": "Python",
+            "last_commit": "2026-03-02T16:30:18Z",
+            "owner": "imran-siddique",
+            "repo": "agent-hypervisor",
+            "stars": 1
+          }
+        }
+      ],
+      "title": "Open Source"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "OpenTelemetry Instrumentation"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Future AGI",
+          "description": "Open-source end-to-end LLM/agent platform with OpenTelemetry-native tracing (via traceAI), evals, simulations, gateway, and guardrails. Auto-instruments 20+ AI frameworks and LLM providers.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-13T19:47:33Z",
+            "owner": "future-agi",
+            "repo": "future-agi",
+            "stars": 1671
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "heimdall-mcp",
+          "description": "Transparent proxy for any MCP server that intercepts JSON-RPC messages, measures latency, and exports OpenTelemetry-native spans to any OTLP-compatible backend (Jaeger, Tempo, Grafana) without modifying the original server.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-07-16T00:55:27Z",
+            "owner": "enmanuelmag",
+            "repo": "heimdall-mcp",
+            "stars": 11
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Voight",
+          "description": "OpenTelemetry SpanExporter for the Vercel AI SDK mapping semconv spans to a hosted dashboard. Direct OpenAI / Anthropic wrappers ship the same spans via with built-in dedup.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-05-23T02:23:55Z",
+            "owner": "Voightxyz",
+            "repo": "voight-vercel-ai",
+            "stars": 10
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "TraceVerde (genai-otel-instrument)",
+          "description": "Comprehensive OpenTelemetry auto-instrumentation for LLM/GenAI applications. Zero-code setup for 19+ LLM providers, 8 multi-agent frameworks, 20+ MCP tools with automatic cost tracking for 1,050+ models and GPU metrics.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-13T11:12:50Z",
+            "owner": "Mandark-droid",
+            "repo": "genai_otel_instrument",
+            "stars": 3
+          }
+        }
+      ],
+      "title": "GenAI / LLM Instrumentation"
+    },
+    {
+      "description": "Distributions and vendors who natively support OpenTelemetry in their commercial products.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "F5",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T20:17:16Z",
+            "owner": "open-telemetry",
+            "repo": "opentelemetry-collector-contrib",
+            "stars": 4857
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Embrace (Android",
+          "description": "iOS)",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Kotlin",
+            "last_commit": "2026-08-13T19:00:49Z",
+            "owner": "embrace-io",
+            "repo": "embrace-android-sdk",
+            "stars": 191
+          }
+        }
+      ],
+      "title": "Vendors Distro"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "OpenTelemetry Registry"
+    },
+    {
+      "description": "Reference Architecture\n",
+      "items": [],
+      "title": "Components"
+    },
+    {
+      "description": "List of supported receivers",
+      "items": [],
+      "title": "Receivers"
+    },
+    {
+      "description": "List of supported processors",
+      "items": [],
+      "title": "Processors"
+    },
+    {
+      "description": "List of supported exporters\n\nsource",
+      "items": [],
+      "title": "Exporters"
+    },
+    {
+      "description": "The OpenTelemetry collectors require a persistent storage backend.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "SkyWalking",
+          "description": "open source APM system",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Java",
+            "last_commit": "2026-08-12T02:00:34Z",
+            "owner": "apache",
+            "repo": "skywalking",
+            "stars": 24922
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Jaeger",
+          "description": "distributed tracing platform created by Uber Technologies",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-12T22:46:44Z",
+            "owner": "jaegertracing",
+            "repo": "jaeger",
+            "stars": 23099
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "GreptimeDB",
+          "description": "open source unified observability database for metrics, logs, and traces",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-13T15:06:06Z",
+            "owner": "GreptimeTeam",
+            "repo": "greptimedb",
+            "stars": 6544
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Teletrace",
+          "description": "Open source distributed tracing tool.",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "language": "Go",
+            "last_commit": "2023-07-19T22:05:19Z",
+            "owner": "teletrace",
+            "repo": "teletrace",
+            "stars": 629
+          }
+        }
+      ],
+      "title": "Storage"
+    },
+    {
+      "description": "Visualizing the distributed tracing data.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Jaeger",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-11T04:57:51Z",
+            "owner": "jaegertracing",
+            "repo": "jaeger-ui",
+            "stars": 1518
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Teletrace",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "language": "Go",
+            "last_commit": "2023-07-19T22:05:19Z",
+            "owner": "teletrace",
+            "repo": "teletrace",
+            "stars": 629
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "KubeStellar Console",
+          "description": "Open source AI-powered multi-cluster Kubernetes dashboard with OpenTelemetry support for real-time observability across hybrid edge and cloud. CNCF Sandbox project.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-13T21:04:32Z",
+            "owner": "kubestellar",
+            "repo": "console",
+            "stars": 127
+          }
+        }
+      ],
+      "title": "UI"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Mailing Lists",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-12T21:56:54Z",
+            "owner": "open-telemetry",
+            "repo": "community",
+            "stars": 1100
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "OpenTelemetry community content",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-12T21:56:54Z",
+            "owner": "open-telemetry",
+            "repo": "community",
+            "stars": 1100
+          }
+        }
+      ],
+      "title": "Community"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-08-13T21:06:38.273Z",
+    "original_repository": "magsther/awesome-opentelemetry",
+    "original_repository_sha": "0ec498600bfbbbceb293b8e13ca1de08ffb57c24",
+    "enhanced_repository": "enhansome/enhansome-opentelemetry",
+    "enhanced_repository_description": null,
+    "title": "Awesome OpenTelemetry with stars"
+  }
+}
