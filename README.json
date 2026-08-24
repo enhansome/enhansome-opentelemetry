@@ -117,10 +117,10 @@
                 "archived": false,
                 "id": 1219087723,
                 "language": "Python",
-                "last_commit": "2026-08-23T00:43:53Z",
+                "last_commit": "2026-08-24T14:15:57Z",
                 "owner": "future-agi",
                 "repo": "future-agi",
-                "stars": 1795
+                "stars": 1801
               }
             },
             {
@@ -177,6 +177,28 @@
           "children": [
             {
               "node_type": "item",
+              "title": "ros-opentelemetry",
+              "description": "End‑to‑End Telemetry for Robotics (ROS2) based on opentelemetry's Python and C++ client libraries.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1069684370,
+                "language": "Python",
+                "last_commit": "2025-11-16T15:00:31Z",
+                "owner": "szobov",
+                "repo": "ros-opentelemetry",
+                "stars": 125
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "ROS2 / Robotics"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
               "title": "F5",
               "description": null,
               "children": [],
@@ -184,10 +206,10 @@
                 "archived": false,
                 "id": 196414933,
                 "language": "Go",
-                "last_commit": "2026-08-23T19:21:12Z",
+                "last_commit": "2026-08-24T14:04:26Z",
                 "owner": "open-telemetry",
                 "repo": "opentelemetry-collector-contrib",
-                "stars": 4875
+                "stars": 4876
               }
             },
             {
@@ -219,6 +241,94 @@
         {
           "children": [
             {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "A receiver is how data gets into the OpenTelemetry Collector. Generally, a receiver accepts data in a specified format, translates it into the internal format and passes it to processors and exporters defined in the applicable pipelines. source",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 185861173,
+                    "language": "Go",
+                    "last_commit": "2026-08-23T23:28:19Z",
+                    "owner": "open-telemetry",
+                    "repo": "opentelemetry-collector",
+                    "stars": 7448
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "List of supported receivers",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 196414933,
+                    "language": "Go",
+                    "last_commit": "2026-08-24T14:04:26Z",
+                    "owner": "open-telemetry",
+                    "repo": "opentelemetry-collector-contrib",
+                    "stars": 4876
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Receivers"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "List of supported processors",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 196414933,
+                    "language": "Go",
+                    "last_commit": "2026-08-24T14:04:26Z",
+                    "owner": "open-telemetry",
+                    "repo": "opentelemetry-collector-contrib",
+                    "stars": 4876
+                  }
+                }
+              ],
+              "description": "Processors are run on data between being received and being exported. Processors are optional though some are recommended. source",
+              "node_type": "group",
+              "title": "Processors"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "List of supported exporters",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 196414933,
+                    "language": "Go",
+                    "last_commit": "2026-08-24T14:04:26Z",
+                    "owner": "open-telemetry",
+                    "repo": "opentelemetry-collector-contrib",
+                    "stars": 4876
+                  }
+                }
+              ],
+              "description": "An exporter is how you send data to one or more backends/destinations. Exporters may support one or more data sources.\nsource",
+              "node_type": "group",
+              "title": "Exporters"
+            }
+          ],
+          "description": "Similar to the Agent, the Collector is able to receive spans and place them in an internal queue for processing.\nThe OpenTelemetry collector is a vendor-agnostic way to receive, process and export telemetry data.\nThe Collector consists of three components that access telemetry data:\nFor vendor specific receivers/exporters, see OpenTelemetry Collector Contrib\nTelflo - AI powered OTel Collector configuration manager with a visual drag and drop pipeline editor and OpAMP based remote management. OTelBin - Online Collector Configuration Tool - OTelBin is a visual editor for the collector configuration.",
+          "node_type": "group",
+          "title": "Collector"
+        },
+        {
+          "children": [
+            {
               "node_type": "item",
               "title": "SkyWalking",
               "description": "open source APM system",
@@ -227,10 +337,10 @@
                 "archived": false,
                 "id": 45721011,
                 "language": "Java",
-                "last_commit": "2026-08-20T15:04:48Z",
+                "last_commit": "2026-08-24T13:38:33Z",
                 "owner": "apache",
                 "repo": "skywalking",
-                "stars": 24927
+                "stars": 24929
               }
             },
             {
@@ -245,7 +355,7 @@
                 "last_commit": "2026-08-23T20:34:15Z",
                 "owner": "jaegertracing",
                 "repo": "jaeger",
-                "stars": 23131
+                "stars": 23132
               }
             },
             {
@@ -257,10 +367,10 @@
                 "archived": false,
                 "id": 480217156,
                 "language": "Rust",
-                "last_commit": "2026-08-23T10:31:03Z",
+                "last_commit": "2026-08-24T14:11:22Z",
                 "owner": "GreptimeTeam",
                 "repo": "greptimedb",
-                "stars": 6564
+                "stars": 6565
               }
             },
             {
@@ -324,7 +434,7 @@
                 "archived": false,
                 "id": 1135473716,
                 "language": "TypeScript",
-                "last_commit": "2026-08-23T19:00:41Z",
+                "last_commit": "2026-08-24T10:52:39Z",
                 "owner": "kubestellar",
                 "repo": "console",
                 "stars": 127
@@ -376,7 +486,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-23T20:42:22.266Z",
+    "last_updated": "2026-08-24T14:20:18.354Z",
     "original_repository": "magsther/awesome-opentelemetry",
     "original_repository_id": 457894790,
     "original_repository_sha": "0ec498600bfbbbceb293b8e13ca1de08ffb57c24",
