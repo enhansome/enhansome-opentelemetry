@@ -14,10 +14,10 @@
                 "archived": false,
                 "id": 542185751,
                 "language": "TypeScript",
-                "last_commit": "2026-08-23T01:12:53Z",
+                "last_commit": "2026-08-24T19:58:00Z",
                 "owner": "mnfst",
                 "repo": "manifest",
-                "stars": 7473
+                "stars": 7476
               }
             },
             {
@@ -117,10 +117,10 @@
                 "archived": false,
                 "id": 1219087723,
                 "language": "Python",
-                "last_commit": "2026-08-24T14:15:57Z",
+                "last_commit": "2026-08-24T20:25:13Z",
                 "owner": "future-agi",
                 "repo": "future-agi",
-                "stars": 1801
+                "stars": 1805
               }
             },
             {
@@ -206,10 +206,10 @@
                 "archived": false,
                 "id": 196414933,
                 "language": "Go",
-                "last_commit": "2026-08-24T14:04:26Z",
+                "last_commit": "2026-08-24T20:33:15Z",
                 "owner": "open-telemetry",
                 "repo": "opentelemetry-collector-contrib",
-                "stars": 4876
+                "stars": 4877
               }
             },
             {
@@ -221,7 +221,7 @@
                 "archived": false,
                 "id": 704537857,
                 "language": "Kotlin",
-                "last_commit": "2026-08-21T15:25:46Z",
+                "last_commit": "2026-08-24T20:29:08Z",
                 "owner": "embrace-io",
                 "repo": "embrace-android-sdk",
                 "stars": 190
@@ -251,7 +251,7 @@
                     "archived": false,
                     "id": 185861173,
                     "language": "Go",
-                    "last_commit": "2026-08-23T23:28:19Z",
+                    "last_commit": "2026-08-24T18:17:55Z",
                     "owner": "open-telemetry",
                     "repo": "opentelemetry-collector",
                     "stars": 7448
@@ -266,10 +266,10 @@
                     "archived": false,
                     "id": 196414933,
                     "language": "Go",
-                    "last_commit": "2026-08-24T14:04:26Z",
+                    "last_commit": "2026-08-24T20:33:15Z",
                     "owner": "open-telemetry",
                     "repo": "opentelemetry-collector-contrib",
-                    "stars": 4876
+                    "stars": 4877
                   }
                 }
               ],
@@ -288,10 +288,10 @@
                     "archived": false,
                     "id": 196414933,
                     "language": "Go",
-                    "last_commit": "2026-08-24T14:04:26Z",
+                    "last_commit": "2026-08-24T20:33:15Z",
                     "owner": "open-telemetry",
                     "repo": "opentelemetry-collector-contrib",
-                    "stars": 4876
+                    "stars": 4877
                   }
                 }
               ],
@@ -310,10 +310,10 @@
                     "archived": false,
                     "id": 196414933,
                     "language": "Go",
-                    "last_commit": "2026-08-24T14:04:26Z",
+                    "last_commit": "2026-08-24T20:33:15Z",
                     "owner": "open-telemetry",
                     "repo": "opentelemetry-collector-contrib",
-                    "stars": 4876
+                    "stars": 4877
                   }
                 }
               ],
@@ -340,7 +340,7 @@
                 "last_commit": "2026-08-24T13:38:33Z",
                 "owner": "apache",
                 "repo": "skywalking",
-                "stars": 24929
+                "stars": 24928
               }
             },
             {
@@ -352,10 +352,10 @@
                 "archived": false,
                 "id": 56342508,
                 "language": "Go",
-                "last_commit": "2026-08-23T20:34:15Z",
+                "last_commit": "2026-08-24T17:39:56Z",
                 "owner": "jaegertracing",
                 "repo": "jaeger",
-                "stars": 23132
+                "stars": 23135
               }
             },
             {
@@ -367,10 +367,10 @@
                 "archived": false,
                 "id": 480217156,
                 "language": "Rust",
-                "last_commit": "2026-08-24T14:11:22Z",
+                "last_commit": "2026-08-24T14:23:32Z",
                 "owner": "GreptimeTeam",
                 "repo": "greptimedb",
-                "stars": 6565
+                "stars": 6566
               }
             },
             {
@@ -434,7 +434,7 @@
                 "archived": false,
                 "id": 1135473716,
                 "language": "TypeScript",
-                "last_commit": "2026-08-24T10:52:39Z",
+                "last_commit": "2026-08-24T20:31:59Z",
                 "owner": "kubestellar",
                 "repo": "console",
                 "stars": 127
@@ -486,7 +486,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-24T14:20:18.354Z",
+    "last_updated": "2026-08-24T20:51:10.410Z",
     "original_repository": "magsther/awesome-opentelemetry",
     "original_repository_id": 457894790,
     "original_repository_sha": "0ec498600bfbbbceb293b8e13ca1de08ffb57c24",
