@@ -14,11 +14,12 @@
                 "archived": false,
                 "id": 542185751,
                 "language": "TypeScript",
-                "last_commit": "2026-08-25T22:53:42Z",
+                "last_commit": "2026-08-28T01:15:44Z",
                 "owner": "mnfst",
                 "repo": "manifest",
-                "stars": 7478
-              }
+                "stars": 7479
+              },
+              "first_seen": "2026-08-28T04:23:01.213Z"
             },
             {
               "node_type": "item",
@@ -33,7 +34,8 @@
                 "owner": "kubeshop",
                 "repo": "tracetest",
                 "stars": 1328
-              }
+              },
+              "first_seen": "2026-08-28T04:23:01.213Z"
             },
             {
               "node_type": "item",
@@ -48,7 +50,8 @@
                 "owner": "teletrace",
                 "repo": "teletrace",
                 "stars": 629
-              }
+              },
+              "first_seen": "2026-08-28T04:23:01.213Z"
             },
             {
               "node_type": "item",
@@ -59,11 +62,12 @@
                 "archived": false,
                 "id": 966544022,
                 "language": "Python",
-                "last_commit": "2026-08-25T06:48:11Z",
+                "last_commit": "2026-08-27T11:55:50Z",
                 "owner": "future-agi",
                 "repo": "traceAI",
-                "stars": 215
-              }
+                "stars": 218
+              },
+              "first_seen": "2026-08-28T04:23:01.213Z"
             },
             {
               "node_type": "item",
@@ -78,7 +82,8 @@
                 "owner": "imran-siddique",
                 "repo": "agent-sre",
                 "stars": 7
-              }
+              },
+              "first_seen": "2026-08-28T04:23:01.213Z"
             },
             {
               "node_type": "item",
@@ -93,7 +98,8 @@
                 "owner": "imran-siddique",
                 "repo": "agent-hypervisor",
                 "stars": 1
-              }
+              },
+              "first_seen": "2026-08-28T04:23:01.213Z"
             }
           ],
           "description": null,
@@ -117,11 +123,12 @@
                 "archived": false,
                 "id": 1219087723,
                 "language": "Python",
-                "last_commit": "2026-08-27T11:48:04Z",
+                "last_commit": "2026-08-28T02:57:21Z",
                 "owner": "future-agi",
                 "repo": "future-agi",
-                "stars": 1840
-              }
+                "stars": 1851
+              },
+              "first_seen": "2026-08-28T04:23:01.213Z"
             },
             {
               "node_type": "item",
@@ -136,7 +143,8 @@
                 "owner": "enmanuelmag",
                 "repo": "heimdall-mcp",
                 "stars": 11
-              }
+              },
+              "first_seen": "2026-08-28T04:23:01.213Z"
             },
             {
               "node_type": "item",
@@ -151,7 +159,8 @@
                 "owner": "Voightxyz",
                 "repo": "voight-vercel-ai",
                 "stars": 10
-              }
+              },
+              "first_seen": "2026-08-28T04:23:01.213Z"
             },
             {
               "node_type": "item",
@@ -166,7 +175,8 @@
                 "owner": "Mandark-droid",
                 "repo": "genai_otel_instrument",
                 "stars": 3
-              }
+              },
+              "first_seen": "2026-08-28T04:23:01.213Z"
             }
           ],
           "description": null,
@@ -188,7 +198,8 @@
                 "owner": "szobov",
                 "repo": "ros-opentelemetry",
                 "stars": 125
-              }
+              },
+              "first_seen": "2026-08-28T04:23:01.213Z"
             }
           ],
           "description": null,
@@ -206,11 +217,12 @@
                 "archived": false,
                 "id": 196414933,
                 "language": "Go",
-                "last_commit": "2026-08-27T08:54:41Z",
+                "last_commit": "2026-08-27T21:52:38Z",
                 "owner": "open-telemetry",
                 "repo": "opentelemetry-collector-contrib",
                 "stars": 4888
-              }
+              },
+              "first_seen": "2026-08-28T04:23:01.213Z"
             },
             {
               "node_type": "item",
@@ -221,11 +233,12 @@
                 "archived": false,
                 "id": 704537857,
                 "language": "Kotlin",
-                "last_commit": "2026-08-27T09:58:55Z",
+                "last_commit": "2026-08-27T16:03:15Z",
                 "owner": "embrace-io",
                 "repo": "embrace-android-sdk",
                 "stars": 190
-              }
+              },
+              "first_seen": "2026-08-28T04:23:01.213Z"
             }
           ],
           "description": "Distributions and vendors who natively support OpenTelemetry in their commercial products.\nFull list of vendors that supports OpenTelemetry",
@@ -251,11 +264,12 @@
                     "archived": false,
                     "id": 185861173,
                     "language": "Go",
-                    "last_commit": "2026-08-27T03:14:08Z",
+                    "last_commit": "2026-08-27T22:57:51Z",
                     "owner": "open-telemetry",
                     "repo": "opentelemetry-collector",
-                    "stars": 7460
-                  }
+                    "stars": 7462
+                  },
+                  "first_seen": "2026-08-28T04:23:01.213Z"
                 },
                 {
                   "node_type": "item",
@@ -266,11 +280,12 @@
                     "archived": false,
                     "id": 196414933,
                     "language": "Go",
-                    "last_commit": "2026-08-27T08:54:41Z",
+                    "last_commit": "2026-08-27T21:52:38Z",
                     "owner": "open-telemetry",
                     "repo": "opentelemetry-collector-contrib",
                     "stars": 4888
-                  }
+                  },
+                  "first_seen": "2026-08-28T04:23:01.213Z"
                 }
               ],
               "description": null,
@@ -288,11 +303,12 @@
                     "archived": false,
                     "id": 196414933,
                     "language": "Go",
-                    "last_commit": "2026-08-27T08:54:41Z",
+                    "last_commit": "2026-08-27T21:52:38Z",
                     "owner": "open-telemetry",
                     "repo": "opentelemetry-collector-contrib",
                     "stars": 4888
-                  }
+                  },
+                  "first_seen": "2026-08-28T04:23:01.213Z"
                 }
               ],
               "description": "Processors are run on data between being received and being exported. Processors are optional though some are recommended. source",
@@ -310,11 +326,12 @@
                     "archived": false,
                     "id": 196414933,
                     "language": "Go",
-                    "last_commit": "2026-08-27T08:54:41Z",
+                    "last_commit": "2026-08-27T21:52:38Z",
                     "owner": "open-telemetry",
                     "repo": "opentelemetry-collector-contrib",
                     "stars": 4888
-                  }
+                  },
+                  "first_seen": "2026-08-28T04:23:01.213Z"
                 }
               ],
               "description": "An exporter is how you send data to one or more backends/destinations. Exporters may support one or more data sources.\nsource",
@@ -341,7 +358,8 @@
                 "owner": "apache",
                 "repo": "skywalking",
                 "stars": 24931
-              }
+              },
+              "first_seen": "2026-08-28T04:23:01.213Z"
             },
             {
               "node_type": "item",
@@ -352,11 +370,12 @@
                 "archived": false,
                 "id": 56342508,
                 "language": "Go",
-                "last_commit": "2026-08-26T19:05:57Z",
+                "last_commit": "2026-08-27T20:32:50Z",
                 "owner": "jaegertracing",
                 "repo": "jaeger",
-                "stars": 23145
-              }
+                "stars": 23148
+              },
+              "first_seen": "2026-08-28T04:23:01.213Z"
             },
             {
               "node_type": "item",
@@ -367,11 +386,12 @@
                 "archived": false,
                 "id": 480217156,
                 "language": "Rust",
-                "last_commit": "2026-08-27T10:45:52Z",
+                "last_commit": "2026-08-28T04:21:05Z",
                 "owner": "GreptimeTeam",
                 "repo": "greptimedb",
-                "stars": 6576
-              }
+                "stars": 6578
+              },
+              "first_seen": "2026-08-28T04:23:01.213Z"
             },
             {
               "node_type": "item",
@@ -386,7 +406,8 @@
                 "owner": "teletrace",
                 "repo": "teletrace",
                 "stars": 629
-              }
+              },
+              "first_seen": "2026-08-28T04:23:01.213Z"
             }
           ],
           "description": "The OpenTelemetry collectors require a persistent storage backend.",
@@ -407,8 +428,9 @@
                 "last_commit": "2026-08-27T03:16:43Z",
                 "owner": "jaegertracing",
                 "repo": "jaeger-ui",
-                "stars": 1521
-              }
+                "stars": 1522
+              },
+              "first_seen": "2026-08-28T04:23:01.213Z"
             },
             {
               "node_type": "item",
@@ -423,7 +445,8 @@
                 "owner": "teletrace",
                 "repo": "teletrace",
                 "stars": 629
-              }
+              },
+              "first_seen": "2026-08-28T04:23:01.213Z"
             },
             {
               "node_type": "item",
@@ -434,11 +457,12 @@
                 "archived": false,
                 "id": 1135473716,
                 "language": "TypeScript",
-                "last_commit": "2026-08-27T11:09:43Z",
+                "last_commit": "2026-08-28T03:24:07Z",
                 "owner": "kubestellar",
                 "repo": "console",
-                "stars": 128
-              }
+                "stars": 129
+              },
+              "first_seen": "2026-08-28T04:23:01.213Z"
             }
           ],
           "description": "Visualizing the distributed tracing data.",
@@ -463,8 +487,9 @@
             "last_commit": "2026-08-26T19:02:44Z",
             "owner": "open-telemetry",
             "repo": "community",
-            "stars": 1108
-          }
+            "stars": 1110
+          },
+          "first_seen": "2026-08-28T04:23:01.213Z"
         },
         {
           "node_type": "item",
@@ -478,15 +503,16 @@
             "last_commit": "2026-08-26T19:02:44Z",
             "owner": "open-telemetry",
             "repo": "community",
-            "stars": 1108
-          }
+            "stars": 1110
+          },
+          "first_seen": "2026-08-28T04:23:01.213Z"
         }
       ],
       "title": "Community"
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-27T11:54:43.589Z",
+    "last_updated": "2026-08-28T04:23:01.213Z",
     "original_repository_info": {
       "archived": false,
       "id": 457894790,
@@ -494,7 +520,7 @@
       "last_commit": "2026-06-09T14:29:04Z",
       "owner": "magsther",
       "repo": "awesome-opentelemetry",
-      "stars": 970
+      "stars": 972
     },
     "original_repository_sha": "0ec498600bfbbbceb293b8e13ca1de08ffb57c24",
     "enhanced_repository": "enhansome/enhansome-opentelemetry",
