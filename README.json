@@ -12,12 +12,33 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Connect Your Agents And Harnesses With Any Provider 🦚",
+                "homepage": "https://manifest.build",
                 "id": 542185751,
                 "language": "TypeScript",
+                "license": "MIT",
                 "last_commit": "2026-08-28T08:09:40Z",
+                "open_issues": 115,
                 "owner": "mnfst",
                 "repo": "manifest",
-                "stars": 7483
+                "stars": 7483,
+                "topics": [
+                  "ai",
+                  "ai-",
+                  "ai-sdk",
+                  "anthropic",
+                  "byok",
+                  "cost-tracking",
+                  "gateway",
+                  "hermes-agent",
+                  "llm-observability",
+                  "llm-router",
+                  "open-source",
+                  "openai-api",
+                  "openclaw",
+                  "subscription",
+                  "token-tracking"
+                ]
               },
               "first_seen": "2026-08-28T04:23:01.213Z"
             },
@@ -28,12 +49,24 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "🔭 Tracetest - Build integration and end-to-end tests in minutes, instead of days, using OpenTelemetry and trace-based testing.",
+                "homepage": "https://docs.tracetest.io/",
                 "id": 454341458,
                 "language": "Go",
+                "license": "NOASSERTION",
                 "last_commit": "2025-06-03T15:24:46Z",
+                "open_issues": 223,
                 "owner": "kubeshop",
                 "repo": "tracetest",
-                "stars": 1328
+                "stars": 1328,
+                "topics": [
+                  "integration-testing",
+                  "microservices",
+                  "opentelemetry",
+                  "testing",
+                  "tracetest",
+                  "tracing"
+                ]
               },
               "first_seen": "2026-08-28T04:23:01.213Z"
             },
@@ -44,12 +77,24 @@
               "children": [],
               "repo_info": {
                 "archived": true,
+                "description": "Open-Source Tracing Platform",
+                "homepage": "https://docs.teletrace.io",
                 "id": 527947052,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2023-07-19T22:05:19Z",
+                "open_issues": 35,
                 "owner": "teletrace",
                 "repo": "teletrace",
-                "stars": 629
+                "stars": 629,
+                "topics": [
+                  "debugging",
+                  "distributed-tracing",
+                  "monitoring",
+                  "observability",
+                  "opentelemetry",
+                  "tracing"
+                ]
               },
               "first_seen": "2026-08-28T04:23:01.213Z"
             },
@@ -60,12 +105,26 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Open Source AI Tracing Framework built on Opentelemetry for AI Applications and Frameworks",
+                "homepage": "https://app.futureagi.com",
                 "id": 966544022,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-27T11:55:50Z",
+                "open_issues": 11,
                 "owner": "future-agi",
                 "repo": "traceAI",
-                "stars": 218
+                "stars": 218,
+                "topics": [
+                  "ai",
+                  "ai-agents",
+                  "langchain",
+                  "large-language-models",
+                  "observability",
+                  "openai",
+                  "opentelemetry",
+                  "tracing"
+                ]
               },
               "first_seen": "2026-08-28T04:23:01.213Z"
             },
@@ -76,12 +135,36 @@
               "children": [],
               "repo_info": {
                 "archived": true,
+                "description": "[DEPRECATED] Moved to microsoft/agent-governance-toolkit",
+                "homepage": "https://imransiddique.com",
                 "id": 1156695001,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-03-03T22:59:56Z",
+                "open_issues": 0,
                 "owner": "imran-siddique",
                 "repo": "agent-sre",
-                "stars": 7
+                "stars": 7,
+                "topics": [
+                  "agent-governance",
+                  "agent-security",
+                  "ai-agents",
+                  "ai-governance",
+                  "canary-deploy",
+                  "cascading-failures",
+                  "chaos-engineering",
+                  "circuit-breaker",
+                  "incident-response",
+                  "monitoring",
+                  "observability",
+                  "opentelemetry",
+                  "owasp",
+                  "python",
+                  "reliability",
+                  "site-reliability-engineering",
+                  "slo",
+                  "sre"
+                ]
               },
               "first_seen": "2026-08-28T04:23:01.213Z"
             },
@@ -92,12 +175,37 @@
               "children": [],
               "repo_info": {
                 "archived": true,
+                "description": "[DEPRECATED] Moved to microsoft/agent-governance-toolkit",
+                "homepage": "https://imransiddique.com",
                 "id": 1162792273,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-03-02T16:30:18Z",
+                "open_issues": 0,
                 "owner": "imran-siddique",
                 "repo": "agent-hypervisor",
-                "stars": 1
+                "stars": 1,
+                "topics": [
+                  "agent-governance",
+                  "agent-orchestration",
+                  "agent-security",
+                  "ai-agents",
+                  "ai-governance",
+                  "ai-safety",
+                  "autonomous-agents",
+                  "execution-rings",
+                  "fault-tolerance",
+                  "hypervisor",
+                  "kill-switch",
+                  "llm",
+                  "multi-agent",
+                  "owasp",
+                  "python",
+                  "resource-management",
+                  "runtime-security",
+                  "saga-pattern",
+                  "sandbox"
+                ]
               },
               "first_seen": "2026-08-28T04:23:01.213Z"
             }
@@ -121,12 +229,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Open-source, end-to-end platform for evaluating, observing, and improving LLM and AI agent applications. Tracing · Evals · Simulations · Datasets · Gateway · Guardrails. Self-hostable. Apache 2.0.",
+                "homepage": "https://futureagi.com",
                 "id": 1219087723,
                 "language": "Python",
-                "last_commit": "2026-08-29T00:10:38Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-29T04:27:54Z",
+                "open_issues": 775,
                 "owner": "future-agi",
                 "repo": "future-agi",
-                "stars": 1864
+                "stars": 1865,
+                "topics": [
+                  "ai-agents",
+                  "ai-evals",
+                  "ai-gateway",
+                  "ai-optimization",
+                  "ai-simulations",
+                  "evaluation-framework",
+                  "guardrails",
+                  "hallucination-detection",
+                  "llm",
+                  "llm-evaluation",
+                  "llm-observability",
+                  "llmops",
+                  "model-evaluation",
+                  "observability",
+                  "opentelemetry",
+                  "rag",
+                  "rag-evaluation",
+                  "simulation",
+                  "telemetry",
+                  "tracing"
+                ]
               },
               "first_seen": "2026-08-28T04:23:01.213Z"
             },
@@ -137,12 +271,31 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Transparent MCP proxy with OpenTelemetry tracing. Wrap any MCP server and persist traces to SQLite, Postgres or MySQL.",
+                "homepage": "https://stack.cardor.dev/heimdall",
                 "id": 1233534767,
                 "language": "TypeScript",
+                "license": "NOASSERTION",
                 "last_commit": "2026-07-16T00:55:27Z",
+                "open_issues": 0,
                 "owner": "enmanuelmag",
                 "repo": "heimdall-mcp",
-                "stars": 11
+                "stars": 11,
+                "topics": [
+                  "agent",
+                  "audit",
+                  "audit-trail",
+                  "javascript",
+                  "mcp",
+                  "model-context-protocol",
+                  "observability",
+                  "opentelemetry",
+                  "postgresql",
+                  "proxy",
+                  "sqlite",
+                  "tracing",
+                  "typescript"
+                ]
               },
               "first_seen": "2026-08-28T04:23:01.213Z"
             },
@@ -153,12 +306,22 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "OpenTelemetry SpanExporter for the Vercel AI SDK → Voight. Drop-in observability",
+                "homepage": "https://docs.voight.xyz/ai-apps/vercel-ai",
                 "id": 1244776064,
                 "language": "TypeScript",
+                "license": "NOASSERTION",
                 "last_commit": "2026-05-23T02:23:55Z",
+                "open_issues": 0,
                 "owner": "Voightxyz",
                 "repo": "voight-vercel-ai",
-                "stars": 10
+                "stars": 10,
+                "topics": [
+                  "ai",
+                  "ai-agents",
+                  "observability",
+                  "vercel-ai"
+                ]
               },
               "first_seen": "2026-08-28T04:23:01.213Z"
             },
@@ -169,12 +332,38 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "GenAI OpenTelemetry Auto-Instrumentation Library A comprehensive wrapper for automatic instrumentation of LLM/GenAI applications Supports all major LLM providers and MCP (Model Context Protocol) tool calls",
+                "homepage": null,
                 "id": 1074043286,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-26T12:24:00Z",
+                "open_issues": 1,
                 "owner": "Mandark-droid",
                 "repo": "genai_otel_instrument",
-                "stars": 3
+                "stars": 3,
+                "topics": [
+                  "ai-agents",
+                  "ai-observability",
+                  "amd-gpu",
+                  "anthropic",
+                  "co2-tracking",
+                  "cost-tracking",
+                  "crewai",
+                  "genai",
+                  "gpu-metrics",
+                  "green-ai",
+                  "instrumentation",
+                  "langchain",
+                  "llm",
+                  "llm-observability",
+                  "mcp",
+                  "nvidia",
+                  "observability",
+                  "openai",
+                  "opentelemetry",
+                  "python"
+                ]
               },
               "first_seen": "2026-08-28T04:23:01.213Z"
             }
@@ -192,12 +381,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "ROS2 x OpenTelemetry: End‑to‑End Telemetry for Robotics",
+                "homepage": null,
                 "id": 1069684370,
                 "language": "Python",
+                "license": "NOASSERTION",
                 "last_commit": "2025-11-16T15:00:31Z",
+                "open_issues": 1,
                 "owner": "szobov",
                 "repo": "ros-opentelemetry",
-                "stars": 125
+                "stars": 125,
+                "topics": []
               },
               "first_seen": "2026-08-28T04:23:01.213Z"
             }
@@ -215,12 +409,20 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Contrib repository for the OpenTelemetry Collector",
+                "homepage": "https://opentelemetry.io",
                 "id": 196414933,
                 "language": "Go",
-                "last_commit": "2026-08-28T22:21:37Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-29T04:04:52Z",
+                "open_issues": 923,
                 "owner": "open-telemetry",
                 "repo": "opentelemetry-collector-contrib",
-                "stars": 4889
+                "stars": 4889,
+                "topics": [
+                  "open-telemetry",
+                  "opentelemetry"
+                ]
               },
               "first_seen": "2026-08-28T04:23:01.213Z"
             },
@@ -231,12 +433,29 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Embrace's Android SDK built on OpenTelemetry",
+                "homepage": "https://embrace.io/docs/android/",
                 "id": 704537857,
                 "language": "Kotlin",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-28T20:23:22Z",
+                "open_issues": 33,
                 "owner": "embrace-io",
                 "repo": "embrace-android-sdk",
-                "stars": 190
+                "stars": 190,
+                "topics": [
+                  "android",
+                  "crash",
+                  "crash-reporting",
+                  "embrace",
+                  "exception-reporting",
+                  "java",
+                  "java-android",
+                  "kotlin",
+                  "kotlin-android",
+                  "network-monitoring",
+                  "sdk"
+                ]
               },
               "first_seen": "2026-08-28T04:23:01.213Z"
             }
@@ -262,12 +481,24 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "OpenTelemetry Collector",
+                    "homepage": "https://opentelemetry.io",
                     "id": 185861173,
                     "language": "Go",
+                    "license": "Apache-2.0",
                     "last_commit": "2026-08-28T18:44:04Z",
+                    "open_issues": 697,
                     "owner": "open-telemetry",
                     "repo": "opentelemetry-collector",
-                    "stars": 7468
+                    "stars": 7468,
+                    "topics": [
+                      "metrics",
+                      "monitoring",
+                      "observability",
+                      "open-telemetry",
+                      "opentelemetry",
+                      "telemetry"
+                    ]
                   },
                   "first_seen": "2026-08-28T04:23:01.213Z"
                 },
@@ -278,12 +509,20 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Contrib repository for the OpenTelemetry Collector",
+                    "homepage": "https://opentelemetry.io",
                     "id": 196414933,
                     "language": "Go",
-                    "last_commit": "2026-08-28T22:21:37Z",
+                    "license": "Apache-2.0",
+                    "last_commit": "2026-08-29T04:04:52Z",
+                    "open_issues": 923,
                     "owner": "open-telemetry",
                     "repo": "opentelemetry-collector-contrib",
-                    "stars": 4889
+                    "stars": 4889,
+                    "topics": [
+                      "open-telemetry",
+                      "opentelemetry"
+                    ]
                   },
                   "first_seen": "2026-08-28T04:23:01.213Z"
                 }
@@ -301,12 +540,20 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Contrib repository for the OpenTelemetry Collector",
+                    "homepage": "https://opentelemetry.io",
                     "id": 196414933,
                     "language": "Go",
-                    "last_commit": "2026-08-28T22:21:37Z",
+                    "license": "Apache-2.0",
+                    "last_commit": "2026-08-29T04:04:52Z",
+                    "open_issues": 923,
                     "owner": "open-telemetry",
                     "repo": "opentelemetry-collector-contrib",
-                    "stars": 4889
+                    "stars": 4889,
+                    "topics": [
+                      "open-telemetry",
+                      "opentelemetry"
+                    ]
                   },
                   "first_seen": "2026-08-28T04:23:01.213Z"
                 }
@@ -324,12 +571,20 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Contrib repository for the OpenTelemetry Collector",
+                    "homepage": "https://opentelemetry.io",
                     "id": 196414933,
                     "language": "Go",
-                    "last_commit": "2026-08-28T22:21:37Z",
+                    "license": "Apache-2.0",
+                    "last_commit": "2026-08-29T04:04:52Z",
+                    "open_issues": 923,
                     "owner": "open-telemetry",
                     "repo": "opentelemetry-collector-contrib",
-                    "stars": 4889
+                    "stars": 4889,
+                    "topics": [
+                      "open-telemetry",
+                      "opentelemetry"
+                    ]
                   },
                   "first_seen": "2026-08-28T04:23:01.213Z"
                 }
@@ -352,12 +607,32 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "APM, Application Performance Monitoring System",
+                "homepage": "https://skywalking.apache.org/",
                 "id": 45721011,
                 "language": "Java",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-26T06:25:56Z",
+                "open_issues": 40,
                 "owner": "apache",
                 "repo": "skywalking",
-                "stars": 24932
+                "stars": 24932,
+                "topics": [
+                  "apm",
+                  "dapper",
+                  "distributed-tracing",
+                  "ebpf",
+                  "logging",
+                  "metrics",
+                  "observability",
+                  "open-telemetry",
+                  "prometheus",
+                  "service-mesh",
+                  "skywalking",
+                  "telegraf",
+                  "web-performance",
+                  "zabbix"
+                ]
               },
               "first_seen": "2026-08-28T04:23:01.213Z"
             },
@@ -368,12 +643,25 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "CNCF Jaeger, a Distributed Tracing Platform",
+                "homepage": "https://www.jaegertracing.io/",
                 "id": 56342508,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-28T18:56:59Z",
+                "open_issues": 554,
                 "owner": "jaegertracing",
                 "repo": "jaeger",
-                "stars": 23156
+                "stars": 23156,
+                "topics": [
+                  "cncf",
+                  "distributed-tracing",
+                  "hacktoberfest",
+                  "jaeger",
+                  "observability",
+                  "opentelemetry",
+                  "tracing"
+                ]
               },
               "first_seen": "2026-08-28T04:23:01.213Z"
             },
@@ -384,12 +672,35 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "The open-source observability database. One columnar engine for metrics, logs, and traces, on object storage.",
+                "homepage": "https://greptime.com/product/db",
                 "id": 480217156,
                 "language": "Rust",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-28T15:44:28Z",
+                "open_issues": 241,
                 "owner": "GreptimeTeam",
                 "repo": "greptimedb",
-                "stars": 6580
+                "stars": 6580,
+                "topics": [
+                  "ai-agents",
+                  "cloud-native",
+                  "distributed-database",
+                  "greptimedb",
+                  "high-cardinality",
+                  "logs",
+                  "metrics",
+                  "object-storage",
+                  "observability",
+                  "observability-database",
+                  "opentelemetry",
+                  "prometheus",
+                  "promql",
+                  "rust",
+                  "self-hosted",
+                  "traces",
+                  "wide-events"
+                ]
               },
               "first_seen": "2026-08-28T04:23:01.213Z"
             },
@@ -400,12 +711,24 @@
               "children": [],
               "repo_info": {
                 "archived": true,
+                "description": "Open-Source Tracing Platform",
+                "homepage": "https://docs.teletrace.io",
                 "id": 527947052,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2023-07-19T22:05:19Z",
+                "open_issues": 35,
                 "owner": "teletrace",
                 "repo": "teletrace",
-                "stars": 629
+                "stars": 629,
+                "topics": [
+                  "debugging",
+                  "distributed-tracing",
+                  "monitoring",
+                  "observability",
+                  "opentelemetry",
+                  "tracing"
+                ]
               },
               "first_seen": "2026-08-28T04:23:01.213Z"
             }
@@ -423,12 +746,33 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Web UI for Jaeger",
+                "homepage": "http://jaegertracing.io/",
                 "id": 82920852,
                 "language": "TypeScript",
+                "license": "Apache-2.0",
                 "last_commit": "2026-08-27T03:16:43Z",
+                "open_issues": 250,
                 "owner": "jaegertracing",
                 "repo": "jaeger-ui",
-                "stars": 1523
+                "stars": 1523,
+                "topics": [
+                  "apm",
+                  "distributed-tracing",
+                  "hacktoberfest",
+                  "jaeger",
+                  "javascript",
+                  "monitoring",
+                  "opentracing",
+                  "react",
+                  "reactjs",
+                  "site-reliability-engineering",
+                  "sre",
+                  "trace",
+                  "tracing",
+                  "typescript",
+                  "ui"
+                ]
               },
               "first_seen": "2026-08-28T04:23:01.213Z"
             },
@@ -439,12 +783,24 @@
               "children": [],
               "repo_info": {
                 "archived": true,
+                "description": "Open-Source Tracing Platform",
+                "homepage": "https://docs.teletrace.io",
                 "id": 527947052,
                 "language": "Go",
+                "license": "Apache-2.0",
                 "last_commit": "2023-07-19T22:05:19Z",
+                "open_issues": 35,
                 "owner": "teletrace",
                 "repo": "teletrace",
-                "stars": 629
+                "stars": 629,
+                "topics": [
+                  "debugging",
+                  "distributed-tracing",
+                  "monitoring",
+                  "observability",
+                  "opentelemetry",
+                  "tracing"
+                ]
               },
               "first_seen": "2026-08-28T04:23:01.213Z"
             },
@@ -455,12 +811,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "World's first fully integrated and fully Automated Kubernetes management and orchestration solution",
+                "homepage": "https://console.kubestellar.io",
                 "id": 1135473716,
                 "language": "TypeScript",
-                "last_commit": "2026-08-29T02:44:22Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-29T04:30:02Z",
+                "open_issues": 13,
                 "owner": "kubestellar",
                 "repo": "console",
-                "stars": 129
+                "stars": 129,
+                "topics": []
               },
               "first_seen": "2026-08-28T04:23:01.213Z"
             }
@@ -482,12 +843,21 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "OpenTelemetry community content",
+            "homepage": "https://opentelemetry.io",
             "id": 184620732,
             "language": "Python",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-26T19:02:44Z",
+            "open_issues": 156,
             "owner": "open-telemetry",
             "repo": "community",
-            "stars": 1111
+            "stars": 1111,
+            "topics": [
+              "cncf",
+              "community",
+              "opentelemetry"
+            ]
           },
           "first_seen": "2026-08-28T04:23:01.213Z"
         },
@@ -498,12 +868,21 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "OpenTelemetry community content",
+            "homepage": "https://opentelemetry.io",
             "id": 184620732,
             "language": "Python",
+            "license": "Apache-2.0",
             "last_commit": "2026-08-26T19:02:44Z",
+            "open_issues": 156,
             "owner": "open-telemetry",
             "repo": "community",
-            "stars": 1111
+            "stars": 1111,
+            "topics": [
+              "cncf",
+              "community",
+              "opentelemetry"
+            ]
           },
           "first_seen": "2026-08-28T04:23:01.213Z"
         }
@@ -512,15 +891,27 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-29T02:50:12.317Z",
+    "last_updated": "2026-08-29T04:36:05.437Z",
     "original_repository_info": {
       "archived": false,
+      "description": "A curated list of OpenTelemetry resources",
+      "homepage": "https://medium.com/@magstherdev/",
       "id": 457894790,
       "language": null,
+      "license": "CC0-1.0",
       "last_commit": "2026-06-09T14:29:04Z",
+      "open_issues": 18,
       "owner": "magsther",
       "repo": "awesome-opentelemetry",
-      "stars": 972
+      "stars": 972,
+      "topics": [
+        "awesome-list",
+        "distributed-tracing",
+        "kubernetes",
+        "observability",
+        "opentelemetry",
+        "tracing"
+      ]
     },
     "original_repository_sha": "0ec498600bfbbbceb293b8e13ca1de08ffb57c24",
     "enhanced_repository": "enhansome/enhansome-opentelemetry",
