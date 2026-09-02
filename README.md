@@ -177,7 +177,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 ### Open Source
 
-* [Manifest](https://manifest.build) ([GitHub](https://github.com/mnfst/manifest) ⭐ 7,494 | 🐛 108 | 🌐 TypeScript | 📅 2026-09-01) - Open-source real-time cost observability for AI agents. OTLP-native, accepts standard OpenTelemetry signals via HTTP (JSON and Protobuf). Tracks tokens, costs, messages, and model usage. Self-hostable and privacy-focused.
+* [Manifest](https://manifest.build) ([GitHub](https://github.com/mnfst/manifest) ⭐ 7,501 | 🐛 106 | 🌐 TypeScript | 📅 2026-09-02) - Open-source real-time cost observability for AI agents. OTLP-native, accepts standard OpenTelemetry signals via HTTP (JSON and Protobuf). Tracks tokens, costs, messages, and model usage. Self-hostable and privacy-focused.
 * [Tracetest](https://github.com/kubeshop/tracetest) ⭐ 1,328 | 🐛 223 | 🌐 Go | 📅 2025-06-03
 * [Teletrace](https://github.com/teletrace/teletrace) ⚠️ Archived - **Deprecated**
 * [traceAI](https://github.com/future-agi/traceAI) ⭐ 221 | 🐛 12 | 🌐 Python | 📅 2026-08-27 - Open-source OpenTelemetry-native instrumentation framework for AI applications that auto-instruments 20+ LLM providers and agent frameworks, capturing prompts, tokens, latency, and errors with zero code changes.
@@ -271,7 +271,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 ### GenAI / LLM Instrumentation
 
-* [Future AGI](https://github.com/future-agi/future-agi) ⭐ 1,902 | 🐛 790 | 🌐 Python | 📅 2026-09-01 - Open-source end-to-end LLM/agent platform with OpenTelemetry-native tracing (via traceAI), evals, simulations, gateway, and guardrails. Auto-instruments 20+ AI frameworks and LLM providers.
+* [Future AGI](https://github.com/future-agi/future-agi) ⭐ 1,909 | 🐛 783 | 🌐 Python | 📅 2026-09-02 - Open-source end-to-end LLM/agent platform with OpenTelemetry-native tracing (via traceAI), evals, simulations, gateway, and guardrails. Auto-instruments 20+ AI frameworks and LLM providers.
 * [heimdall-mcp](https://github.com/enmanuelmag/heimdall-mcp) ⭐ 11 | 🐛 0 | 🌐 TypeScript | 📅 2026-07-16 - Transparent proxy for any MCP server that intercepts JSON-RPC messages, measures latency, and exports OpenTelemetry-native spans to any OTLP-compatible backend (Jaeger, Tempo, Grafana) without modifying the original server.
 * [Voight](https://github.com/Voightxyz/voight-vercel-ai) ⭐ 10 | 🐛 0 | 🌐 TypeScript | 📅 2026-05-23 - OpenTelemetry SpanExporter for the Vercel AI SDK mapping `gen_ai.*` semconv spans to a hosted dashboard. Direct OpenAI / Anthropic wrappers ship the same spans via `otel: true` with built-in dedup.
 * [TraceVerde (genai-otel-instrument)](https://github.com/Mandark-droid/genai_otel_instrument) ⭐ 3 | 🐛 1 | 🌐 Python | 📅 2026-08-26 - Comprehensive OpenTelemetry auto-instrumentation for LLM/GenAI applications. Zero-code setup for 19+ LLM providers, 8 multi-agent frameworks, 20+ MCP tools with automatic cost tracking for 1,050+ models and GPU metrics.
@@ -286,8 +286,8 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 Distributions and vendors who natively support OpenTelemetry in their commercial products.
 
-* [F5](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/exporter/f5cloudexporter) ⭐ 4,897 | 🐛 939 | 🌐 Go | 📅 2026-09-01
-* Embrace ([Android](https://github.com/embrace-io/embrace-android-sdk) ⭐ 190 | 🐛 14 | 🌐 Kotlin | 📅 2026-09-01 | [iOS](https://github.com/embrace-io/embrace-apple-sdk) ⭐ 143 | 🐛 24 | 🌐 Swift | 📅 2026-09-01)
+* [F5](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/exporter/f5cloudexporter) ⭐ 4,901 | 🐛 947 | 🌐 Go | 📅 2026-09-02
+* Embrace ([Android](https://github.com/embrace-io/embrace-android-sdk) ⭐ 190 | 🐛 7 | 🌐 Kotlin | 📅 2026-09-02 | [iOS](https://github.com/embrace-io/embrace-apple-sdk) ⭐ 143 | 🐛 24 | 🌐 Swift | 📅 2026-09-01)
 * [Aspecto](https://www.aspecto.io/)
 * [AWS](https://aws-otel.github.io/)
 * [Azure](https://docs.microsoft.com/azure/azure-monitor/app/opentelemetry-overview)
@@ -339,7 +339,7 @@ Client libraries used to instrument applications for distributed tracing.
 
 ![OpenTelemetry Client Architecture](./docs/images/otel-specification.png)
 
-Refer from [OpenTelemetry Official Document](https://github.com/open-telemetry/opentelemetry-specification/blob/main/specification/overview.md) ⭐ 4,333 | 🐛 401 | 🌐 Makefile | 📅 2026-09-01
+Refer from [OpenTelemetry Official Document](https://github.com/open-telemetry/opentelemetry-specification/blob/main/specification/overview.md) ⭐ 4,335 | 🐛 377 | 🌐 Makefile | 📅 2026-09-01
 
 ***
 
@@ -371,7 +371,7 @@ The Collector consists of three components that access telemetry data:
 * [Processors](https://opentelemetry.io/docs/collector/configuration/#processors) - Processors are run on data between being received and being exported.
 * [Exporters](https://opentelemetry.io/docs/collector/configuration/#exporters) - How you send data to one or more backends/destinations
 
-For vendor specific receivers/exporters, see [OpenTelemetry Collector Contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib) ⭐ 4,897 | 🐛 939 | 🌐 Go | 📅 2026-09-01
+For vendor specific receivers/exporters, see [OpenTelemetry Collector Contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib) ⭐ 4,901 | 🐛 947 | 🌐 Go | 📅 2026-09-02
 
 [Telflo](https://telflo.com) - AI powered OTel Collector configuration manager with a visual drag and drop pipeline editor and OpAMP based remote management.
 [OTelBin - Online Collector Configuration Tool](https://www.otelbin.io) - OTelBin is a visual editor for the collector configuration.
@@ -379,22 +379,22 @@ For vendor specific receivers/exporters, see [OpenTelemetry Collector Contrib](h
 #### Receivers
 
 > A receiver is how data gets into the OpenTelemetry Collector. Generally, a receiver accepts data in a specified format, translates it into the internal format and passes it to processors and exporters defined in the applicable pipelines.
-> [source](https://github.com/open-telemetry/opentelemetry-collector/blob/main/receiver/README.md) ⭐ 7,478 | 🐛 710 | 🌐 Go | 📅 2026-09-01
+> [source](https://github.com/open-telemetry/opentelemetry-collector/blob/main/receiver/README.md) ⭐ 7,487 | 🐛 704 | 🌐 Go | 📅 2026-09-02
 
-[List of supported receivers](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver) ⭐ 4,897 | 🐛 939 | 🌐 Go | 📅 2026-09-01
+[List of supported receivers](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver) ⭐ 4,901 | 🐛 947 | 🌐 Go | 📅 2026-09-02
 
 #### Processors
 
-> Processors are run on data between being received and being exported. Processors are optional though [some are recommended](https://github.com/open-telemetry/opentelemetry-collector/tree/main/processor#recommended-processors) ⭐ 7,478 | 🐛 710 | 🌐 Go | 📅 2026-09-01.
+> Processors are run on data between being received and being exported. Processors are optional though [some are recommended](https://github.com/open-telemetry/opentelemetry-collector/tree/main/processor#recommended-processors) ⭐ 7,487 | 🐛 704 | 🌐 Go | 📅 2026-09-02.
 > [source](https://opentelemetry.io/docs/collector/configuration/#processors)
 
-[List of supported processors](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/processor) ⭐ 4,897 | 🐛 939 | 🌐 Go | 📅 2026-09-01
+[List of supported processors](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/processor) ⭐ 4,901 | 🐛 947 | 🌐 Go | 📅 2026-09-02
 
 #### Exporters
 
 > An exporter is how you send data to one or more backends/destinations. Exporters may support one or more data sources.
 
-[List of supported exporters](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/exporter) ⭐ 4,897 | 🐛 939 | 🌐 Go | 📅 2026-09-01
+[List of supported exporters](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/exporter) ⭐ 4,901 | 🐛 947 | 🌐 Go | 📅 2026-09-02
 
 ***
 
@@ -408,9 +408,9 @@ For vendor specific receivers/exporters, see [OpenTelemetry Collector Contrib](h
 
 The OpenTelemetry collectors require a persistent storage backend.
 
-* [SkyWalking](https://github.com/apache/skywalking) ⭐ 24,937 | 🐛 39 | 🌐 Java | 📅 2026-08-26 - open source APM system
-* [Jaeger](https://github.com/jaegertracing/jaeger) ⭐ 23,170 | 🐛 570 | 🌐 Go | 📅 2026-09-01 - distributed tracing platform created by Uber Technologies
-* [GreptimeDB](https://github.com/GreptimeTeam/greptimedb) ⭐ 6,589 | 🐛 242 | 🌐 Rust | 📅 2026-09-01 - open source unified observability database for metrics, logs, and traces
+* [SkyWalking](https://github.com/apache/skywalking) ⭐ 24,938 | 🐛 39 | 🌐 Java | 📅 2026-09-02 - open source APM system
+* [Jaeger](https://github.com/jaegertracing/jaeger) ⭐ 23,176 | 🐛 571 | 🌐 Go | 📅 2026-09-02 - distributed tracing platform created by Uber Technologies
+* [GreptimeDB](https://github.com/GreptimeTeam/greptimedb) ⭐ 6,590 | 🐛 242 | 🌐 Rust | 📅 2026-09-02 - open source unified observability database for metrics, logs, and traces
 * [Teletrace](https://github.com/teletrace/teletrace) ⚠️ Archived - Open source distributed tracing tool.
 * [Cassandra](https://cassandra.apache.org/_/index.html) - open source NoSQL distributed database
 * [Elastic](https://www.elastic.co) - open search and analytics solution
@@ -430,9 +430,9 @@ You can optional use an **Ingester**, which is a service that reads data from Ka
 
 Visualizing the distributed tracing data.
 
-* [Jaeger](https://github.com/jaegertracing/jaeger-ui) ⭐ 1,524 | 🐛 250 | 🌐 TypeScript | 📅 2026-09-01
+* [Jaeger](https://github.com/jaegertracing/jaeger-ui) ⭐ 1,525 | 🐛 252 | 🌐 TypeScript | 📅 2026-09-01
 * [Teletrace](https://github.com/teletrace/teletrace) ⚠️ Archived
-* [KubeStellar Console](https://github.com/kubestellar/console) ⭐ 131 | 🐛 37 | 🌐 TypeScript | 📅 2026-09-01 - Open source AI-powered multi-cluster Kubernetes dashboard with OpenTelemetry support for real-time observability across hybrid edge and cloud. CNCF Sandbox project.
+* [KubeStellar Console](https://github.com/kubestellar/console) ⭐ 131 | 🐛 52 | 🌐 TypeScript | 📅 2026-09-02 - Open source AI-powered multi-cluster Kubernetes dashboard with OpenTelemetry support for real-time observability across hybrid edge and cloud. CNCF Sandbox project.
 * [TelemetryHub](https://telemetryhub.com/)
 * [Zipkin](https://zipkin.io)
 * [AspireDashboard](https://aspiredashboard.com/)
@@ -483,8 +483,8 @@ Visualizing the distributed tracing data.
 
 ## Community
 
-* [Mailing Lists](https://github.com/open-telemetry/community#mailing-lists) ⭐ 1,115 | 🐛 156 | 🌐 Python | 📅 2026-09-01
-* [OpenTelemetry community content](https://github.com/open-telemetry/community) ⭐ 1,115 | 🐛 156 | 🌐 Python | 📅 2026-09-01
+* [Mailing Lists](https://github.com/open-telemetry/community#mailing-lists) ⭐ 1,115 | 🐛 160 | 🌐 Python | 📅 2026-09-02
+* [OpenTelemetry community content](https://github.com/open-telemetry/community) ⭐ 1,115 | 🐛 160 | 🌐 Python | 📅 2026-09-02
 * [Join the OpenTelemetry community](https://opentelemetry.io/community/)
 * [OpenTelemetry Public Calendar](https://calendar.google.com/calendar/embed?src=google.com_b79e3e90j7bbsa2n2p5an5lf60%40group.calendar.google.com)
 * [Chat with other project developers on Slack](https://cloud-native.slack.com/archives/CJFCJHG4Q)
@@ -495,4 +495,4 @@ Visualizing the distributed tracing data.
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-01._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-02._
