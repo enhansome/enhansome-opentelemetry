@@ -271,10 +271,10 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 ### GenAI / LLM Instrumentation
 
-* [Future AGI](https://github.com/future-agi/future-agi) ⭐ 2,107 | 🐛 1,012 | 🌐 Python | 📅 2026-10-02 - Open-source end-to-end LLM/agent platform with OpenTelemetry-native tracing (via traceAI), evals, simulations, gateway, and guardrails. Auto-instruments 20+ AI frameworks and LLM providers.
+* [Future AGI](https://github.com/future-agi/future-agi) ⭐ 2,107 | 🐛 1,013 | 🌐 Python | 📅 2026-10-03 - Open-source end-to-end LLM/agent platform with OpenTelemetry-native tracing (via traceAI), evals, simulations, gateway, and guardrails. Auto-instruments 20+ AI frameworks and LLM providers.
 * [heimdall-mcp](https://github.com/enmanuelmag/heimdall-mcp) ⭐ 11 | 🐛 0 | 🌐 TypeScript | 📅 2026-07-16 - Transparent proxy for any MCP server that intercepts JSON-RPC messages, measures latency, and exports OpenTelemetry-native spans to any OTLP-compatible backend (Jaeger, Tempo, Grafana) without modifying the original server.
 * [Voight](https://github.com/Voightxyz/voight-vercel-ai) ⭐ 10 | 🐛 0 | 🌐 TypeScript | 📅 2026-09-26 - OpenTelemetry SpanExporter for the Vercel AI SDK mapping `gen_ai.*` semconv spans to a hosted dashboard. Direct OpenAI / Anthropic wrappers ship the same spans via `otel: true` with built-in dedup.
-* [TraceVerde (genai-otel-instrument)](https://github.com/Mandark-droid/genai_otel_instrument) ⭐ 3 | 🐛 1 | 🌐 Python | 📅 2026-09-24 - Comprehensive OpenTelemetry auto-instrumentation for LLM/GenAI applications. Zero-code setup for 19+ LLM providers, 8 multi-agent frameworks, 20+ MCP tools with automatic cost tracking for 1,050+ models and GPU metrics.
+* [TraceVerde (genai-otel-instrument)](https://github.com/Mandark-droid/genai_otel_instrument) ⭐ 3 | 🐛 1 | 🌐 Python | 📅 2026-10-03 - Comprehensive OpenTelemetry auto-instrumentation for LLM/GenAI applications. Zero-code setup for 19+ LLM providers, 8 multi-agent frameworks, 20+ MCP tools with automatic cost tracking for 1,050+ models and GPU metrics.
 * [TWZRD Agent Intel](https://intel.twzrd.xyz) - On-chain trust scoring and behavioral tracing for AI agent wallets on Solana. MCP server (, ) — use in agentic OTel pipelines to enrich agent spans with on-chain identity and trust score attributes before x402 micropayment-gated resource access. [MCP](https://intel.twzrd.xyz/mcp)
 * [Tuning Engines](https://www.tuningengines.com/) - AI control and evidence plane that accepts governed model, MCP, skill, workflow, policy, approval, state-reference, and outcome traces while external runtimes keep execution ownership.
 
@@ -339,7 +339,7 @@ Client libraries used to instrument applications for distributed tracing.
 
 ![OpenTelemetry Client Architecture](./docs/images/otel-specification.png)
 
-Refer from [OpenTelemetry Official Document](https://github.com/open-telemetry/opentelemetry-specification/blob/main/specification/overview.md) ⭐ 4,347 | 🐛 280 | 🌐 Makefile | 📅 2026-10-02
+Refer from [OpenTelemetry Official Document](https://github.com/open-telemetry/opentelemetry-specification/blob/main/specification/overview.md) ⭐ 4,347 | 🐛 279 | 🌐 Makefile | 📅 2026-10-02
 
 ***
 
@@ -409,7 +409,7 @@ For vendor specific receivers/exporters, see [OpenTelemetry Collector Contrib](h
 The OpenTelemetry collectors require a persistent storage backend.
 
 * [SkyWalking](https://github.com/apache/skywalking) ⭐ 24,966 | 🐛 41 | 🌐 Java | 📅 2026-09-30 - open source APM system
-* [Jaeger](https://github.com/jaegertracing/jaeger) ⭐ 23,263 | 🐛 546 | 🌐 Go | 📅 2026-10-02 - distributed tracing platform created by Uber Technologies
+* [Jaeger](https://github.com/jaegertracing/jaeger) ⭐ 23,263 | 🐛 547 | 🌐 Go | 📅 2026-10-02 - distributed tracing platform created by Uber Technologies
 * [GreptimeDB](https://github.com/GreptimeTeam/greptimedb) ⭐ 6,725 | 🐛 284 | 🌐 Rust | 📅 2026-10-02 - open source unified observability database for metrics, logs, and traces
 * [Teletrace](https://github.com/teletrace/teletrace) ⚠️ Archived - Open source distributed tracing tool.
 * [Cassandra](https://cassandra.apache.org/_/index.html) - open source NoSQL distributed database
@@ -432,7 +432,7 @@ Visualizing the distributed tracing data.
 
 * [Jaeger](https://github.com/jaegertracing/jaeger-ui) ⭐ 1,531 | 🐛 213 | 🌐 TypeScript | 📅 2026-10-02
 * [Teletrace](https://github.com/teletrace/teletrace) ⚠️ Archived
-* [KubeStellar Console](https://github.com/kubestellar/console) ⭐ 140 | 🐛 5 | 🌐 TypeScript | 📅 2026-10-02 - Open source AI-powered multi-cluster Kubernetes dashboard with OpenTelemetry support for real-time observability across hybrid edge and cloud. CNCF Sandbox project.
+* [KubeStellar Console](https://github.com/kubestellar/console) ⭐ 140 | 🐛 4 | 🌐 TypeScript | 📅 2026-10-03 - Open source AI-powered multi-cluster Kubernetes dashboard with OpenTelemetry support for real-time observability across hybrid edge and cloud. CNCF Sandbox project.
 * [TelemetryHub](https://telemetryhub.com/)
 * [Zipkin](https://zipkin.io)
 * [AspireDashboard](https://aspiredashboard.com/)
@@ -475,7 +475,7 @@ Visualizing the distributed tracing data.
 * [Ben Sigelman](https://twitter.com/el_bhs) - Co-created OpenTelemetry & OpenTracing
 * [Juraci Paixão Kröhling](https://twitter.com/jpkrohling) -  Opentelemetry maintainer.
 * [Charity Majors](https://twitter.com/mipsytipsy) - cofounder/CTO Honeycomb.io
-* [Awesome Opentelemetry](https://github.com/magsther/awesome-opentelemetry) ⭐ 982 | 🐛 24 | 📅 2026-06-09 - A curated list of OpenTelemetry resources.
+* [Awesome Opentelemetry](https://github.com/magsther/awesome-opentelemetry) - A curated list of OpenTelemetry resources.
 
 ## Case Studies
 
@@ -495,4 +495,4 @@ Visualizing the distributed tracing data.
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-02._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-03._

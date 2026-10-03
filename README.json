@@ -45,7 +45,7 @@
             {
               "node_type": "item",
               "title": "Tracetest",
-              "description": null,
+              "description": "kubeshop/tracetest",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -234,8 +234,8 @@
                 "id": 1219087723,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-02T21:32:53Z",
-                "open_issues": 1012,
+                "last_commit": "2026-10-03T01:54:41Z",
+                "open_issues": 1013,
                 "owner": "future-agi",
                 "repo": "future-agi",
                 "stars": 2107,
@@ -337,7 +337,7 @@
                 "id": 1074043286,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-24T15:35:51Z",
+                "last_commit": "2026-10-03T03:35:15Z",
                 "open_issues": 1,
                 "owner": "Mandark-droid",
                 "repo": "genai_otel_instrument",
@@ -405,7 +405,7 @@
             {
               "node_type": "item",
               "title": "F5",
-              "description": null,
+              "description": "open-telemetry/opentelemetry-collector-contrib",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -477,7 +477,7 @@
                 {
                   "node_type": "item",
                   "title": "A receiver is how data gets into the OpenTelemetry Collector. Generally, a receiver accepts data in a specified format, translates it into the internal format and passes it to processors and exporters defined in the applicable pipelines. source",
-                  "description": null,
+                  "description": "open-telemetry/opentelemetry-collector",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -505,7 +505,7 @@
                 {
                   "node_type": "item",
                   "title": "List of supported receivers",
-                  "description": null,
+                  "description": "open-telemetry/opentelemetry-collector-contrib",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -536,7 +536,7 @@
                 {
                   "node_type": "item",
                   "title": "List of supported processors",
-                  "description": null,
+                  "description": "open-telemetry/opentelemetry-collector-contrib",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -567,7 +567,7 @@
                 {
                   "node_type": "item",
                   "title": "List of supported exporters",
-                  "description": null,
+                  "description": "open-telemetry/opentelemetry-collector-contrib",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -649,7 +649,7 @@
                 "language": "Go",
                 "license": "Apache-2.0",
                 "last_commit": "2026-10-02T19:36:05Z",
-                "open_issues": 546,
+                "open_issues": 547,
                 "owner": "jaegertracing",
                 "repo": "jaeger",
                 "stars": 23263,
@@ -742,7 +742,7 @@
             {
               "node_type": "item",
               "title": "Jaeger",
-              "description": null,
+              "description": "jaegertracing/jaeger-ui",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -779,7 +779,7 @@
             {
               "node_type": "item",
               "title": "Teletrace",
-              "description": null,
+              "description": "teletrace/teletrace",
               "children": [],
               "repo_info": {
                 "archived": true,
@@ -816,8 +816,8 @@
                 "id": 1135473716,
                 "language": "TypeScript",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-02T16:18:58Z",
-                "open_issues": 5,
+                "last_commit": "2026-10-03T04:44:11Z",
+                "open_issues": 4,
                 "owner": "kubestellar",
                 "repo": "console",
                 "stars": 140,
@@ -839,7 +839,7 @@
         {
           "node_type": "item",
           "title": "Mailing Lists",
-          "description": null,
+          "description": "open-telemetry/community",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -864,7 +864,7 @@
         {
           "node_type": "item",
           "title": "OpenTelemetry community content",
-          "description": null,
+          "description": "open-telemetry/community",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -891,7 +891,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-02T23:49:49.902Z",
+    "last_updated": "2026-10-03T05:00:58.197Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of OpenTelemetry resources",
