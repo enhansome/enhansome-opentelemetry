@@ -18,10 +18,10 @@
                 "language": "TypeScript",
                 "license": "MIT",
                 "last_commit": "2026-10-29T16:48:07Z",
-                "open_issues": 49,
+                "open_issues": 51,
                 "owner": "mnfst",
                 "repo": "llm-gateway",
-                "stars": 7608,
+                "stars": 7611,
                 "topics": [
                   "ai",
                   "ai-",
@@ -110,11 +110,11 @@
                 "id": 966544022,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-29T23:37:15Z",
-                "open_issues": 48,
+                "last_commit": "2026-10-31T23:17:14Z",
+                "open_issues": 164,
                 "owner": "future-agi",
                 "repo": "traceAI",
-                "stars": 264,
+                "stars": 265,
                 "topics": [
                   "ai",
                   "ai-agents",
@@ -127,6 +127,31 @@
                 ]
               },
               "first_seen": "2026-08-28T04:23:01.213Z"
+            },
+            {
+              "node_type": "item",
+              "title": "playwright-opentelemetry",
+              "description": "OpenTelemetry traces from Playwright tests - with context propagation, OTLP export, and a viewer that pairs browser screenshots with backend spans.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "OpenTelemetry traces from Playwright tests - with propagation, OTLP export, and a viewer that pairs screenshots with backend spans",
+                "homepage": "https://trace.endform.dev/",
+                "id": 1090219562,
+                "language": "TypeScript",
+                "license": "Apache-2.0",
+                "last_commit": "2026-10-30T22:52:30Z",
+                "open_issues": 6,
+                "owner": "endformdev",
+                "repo": "playwright-opentelemetry",
+                "stars": 27,
+                "topics": [
+                  "open-telemetry",
+                  "otel",
+                  "playwright"
+                ]
+              },
+              "first_seen": "2026-10-31T23:26:11.519Z"
             },
             {
               "node_type": "item",
@@ -170,6 +195,42 @@
             },
             {
               "node_type": "item",
+              "title": "Flare",
+              "description": "Self-hosted, OTLP-native observability platform for .NET. Logs, traces and metrics correlated in one UI, stored in ClickHouse, with alerting and a .NET Aspire hosting integration.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Self-hosted, OpenTelemetry-native log dashboard for .NET: live-tail logs, correlate traces & metrics, and alert on breaches via Slack/Telegram/webhook/email — all over plain OTLP. A self-hosted alternative to Seq or Datadog Logs.",
+                "homepage": null,
+                "id": 1324913952,
+                "language": "C#",
+                "license": "MIT",
+                "last_commit": "2026-10-25T11:44:48Z",
+                "open_issues": 1,
+                "owner": "aminparsa18",
+                "repo": "Flare.Net",
+                "stars": 3,
+                "topics": [
+                  "aspnetcore",
+                  "clickhouse",
+                  "csharp",
+                  "docker",
+                  "dotnet",
+                  "log-management",
+                  "logging",
+                  "metrics",
+                  "monitoring",
+                  "observability",
+                  "opentelemetry",
+                  "otel",
+                  "self-hosted",
+                  "tracing"
+                ]
+              },
+              "first_seen": "2026-10-31T23:26:11.519Z"
+            },
+            {
+              "node_type": "item",
               "title": "Agent-Hypervisor",
               "description": "Runtime supervisor for multi-agent systems with a structured event bus (40+ event types) that exports ring transitions, saga steps, and liability events as distributed traces",
               "children": [],
@@ -208,6 +269,38 @@
                 ]
               },
               "first_seen": "2026-08-28T04:23:01.213Z"
+            },
+            {
+              "node_type": "item",
+              "title": "MB3R Stack",
+              "description": "Open-source model-based resilience toolchain that uses OpenTelemetry trace evidence for topology discovery, virtual failure simulation, continuous resilience assessment, and pre-release risk analysis.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Integration bundle for Bering and Sheaft with Helm, OpenTelemetry overlays, dashboards, and CI/CD adapters",
+                "homepage": null,
+                "id": 1178923182,
+                "language": "Python",
+                "license": "MIT",
+                "last_commit": "2026-10-29T14:10:47Z",
+                "open_issues": 5,
+                "owner": "MB3R-Lab",
+                "repo": "mb3r-stack",
+                "stars": 1,
+                "topics": [
+                  "bering",
+                  "chaos-engineering",
+                  "cicd",
+                  "helm",
+                  "observability",
+                  "opentelemetry",
+                  "reliability-engineering",
+                  "resilience",
+                  "sheaft",
+                  "sre"
+                ]
+              },
+              "first_seen": "2026-10-31T23:26:11.519Z"
             }
           ],
           "description": null,
@@ -224,6 +317,114 @@
           "children": [
             {
               "node_type": "item",
+              "title": "@open-multi-agent/otel",
+              "description": "Optional TypeScript adapter that maps OMA TraceRecord v2 batches to OpenTelemetry spans, events, and links through an application-owned tracer or provider; the core package keeps no OpenTelemetry runtime dependency.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Self-hosted TypeScript agent runtime with durable approvals and verifiable run records. Own it, approve it, audit it.",
+                "homepage": "https://open-multi-agent.com/go/repo",
+                "id": 1197656406,
+                "language": "TypeScript",
+                "license": "MIT",
+                "last_commit": "2026-10-29T17:50:03Z",
+                "open_issues": 9,
+                "owner": "open-multi-agent",
+                "repo": "open-multi-agent",
+                "stars": 7039,
+                "topics": [
+                  "agent-framework",
+                  "agent-orchestration",
+                  "agentic-ai",
+                  "ai-agents",
+                  "ai-governance",
+                  "anthropic",
+                  "claude",
+                  "claude-code",
+                  "deepseek",
+                  "gemini",
+                  "llm",
+                  "local-llm",
+                  "mcp",
+                  "multi-agent",
+                  "observability",
+                  "ollama",
+                  "openai",
+                  "self-hosted",
+                  "typescript"
+                ]
+              },
+              "first_seen": "2026-10-31T23:26:11.519Z"
+            },
+            {
+              "node_type": "item",
+              "title": "Atomic Agents",
+              "description": "Python agent framework with built-in OpenTelemetry instrumentation. Emits GenAI semantic-convention spans (invoke_agent, execute_tool, chat) with only opentelemetry-api installed, so traces go to any OTLP backend.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Building AI agents, atomically",
+                "homepage": "https://eigenwise.github.io/atomic-agents/",
+                "id": 809673506,
+                "language": "Python",
+                "license": "MIT",
+                "last_commit": "2026-10-29T19:00:20Z",
+                "open_issues": 10,
+                "owner": "Eigenwise",
+                "repo": "atomic-agents",
+                "stars": 6315,
+                "topics": [
+                  "ai",
+                  "artificial-intelligence",
+                  "large-language-model",
+                  "large-language-models",
+                  "llms",
+                  "openai",
+                  "openai-api"
+                ]
+              },
+              "first_seen": "2026-10-31T23:26:11.519Z"
+            },
+            {
+              "node_type": "item",
+              "title": "Pydantic Logfire SDK",
+              "description": "OpenTelemetry-native observability platform and SDK from the Pydantic team. Auto-instruments Pydantic AI, OpenAI, Anthropic, LangChain and other AI frameworks, emitting standard OTel spans consumable by any OTLP-compatible backend.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "AI observability platform for production LLM and agent systems.",
+                "homepage": "https://pydantic.dev/logfire/",
+                "id": 790713784,
+                "language": "Python",
+                "license": "MIT",
+                "last_commit": "2026-10-31T00:11:37Z",
+                "open_issues": 232,
+                "owner": "pydantic",
+                "repo": "logfire",
+                "stars": 4528,
+                "topics": [
+                  "agent-observability",
+                  "ai",
+                  "ai-observability",
+                  "ai-tools",
+                  "evals",
+                  "fastapi",
+                  "llm-observability",
+                  "logging",
+                  "metrics",
+                  "observability",
+                  "openai",
+                  "opentelemetry",
+                  "pydantic",
+                  "pydantic-ai",
+                  "python",
+                  "trace"
+                ]
+              },
+              "first_seen": "2026-10-31T23:26:11.519Z"
+            },
+            {
+              "node_type": "item",
               "title": "Future AGI",
               "description": "Open-source end-to-end LLM/agent platform with OpenTelemetry-native tracing (via traceAI), evals, simulations, gateway, and guardrails. Auto-instruments 20+ AI frameworks and LLM providers.",
               "children": [],
@@ -234,11 +435,11 @@
                 "id": 1219087723,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-30T22:08:34Z",
-                "open_issues": 951,
+                "last_commit": "2026-10-31T22:25:49Z",
+                "open_issues": 957,
                 "owner": "future-agi",
                 "repo": "future-agi",
-                "stars": 2231,
+                "stars": 2233,
                 "topics": [
                   "agent-evaluation",
                   "ai-agents",
@@ -263,6 +464,48 @@
                 ]
               },
               "first_seen": "2026-08-28T04:23:01.213Z"
+            },
+            {
+              "node_type": "item",
+              "title": "ClawMetry",
+              "description": "Self-hosted observability for coding agents, with a built-in OTLP receiver on , and . Point any OpenTelemetry SDK or collector at it and those spans land in the same dashboard as the agent sessions it reads from disk. Website",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "See your agent think. Zero-config observability & governance for 30 AI agent runtimes: Claude Code, OpenAI Codex, Hermes, OpenClaw & 26 more. Live token costs, sessions, tool calls, crons.",
+                "homepage": "https://clawmetry.com",
+                "id": 1156882085,
+                "language": "Python",
+                "license": "MIT",
+                "last_commit": "2026-10-28T08:44:58Z",
+                "open_issues": 158,
+                "owner": "vivekchand",
+                "repo": "clawmetry",
+                "stars": 436,
+                "topics": [
+                  "agent-monitoring",
+                  "ai-agent",
+                  "ai-agents",
+                  "aider",
+                  "claude-code",
+                  "clawmetry",
+                  "codex",
+                  "cost-tracking",
+                  "cursor",
+                  "developer-tools",
+                  "gemini-cli",
+                  "github-copilot",
+                  "goose",
+                  "llm",
+                  "llm-observability",
+                  "monitoring",
+                  "observability",
+                  "openclaw",
+                  "opentelemetry",
+                  "python"
+                ]
+              },
+              "first_seen": "2026-10-31T23:26:11.519Z"
             },
             {
               "node_type": "item",
@@ -327,6 +570,83 @@
             },
             {
               "node_type": "item",
+              "title": "DProvenanceKit",
+              "description": "Swift library for reasoning observability and regression testing of AI agents. Its zero-dependency DProvenanceOTel bridge maps trace runs to OTLP/JSON and promotes Apple FoundationModels calls to semconv spans, exporting to Langfuse or any OTLP/HTTP collector (Apache 2.0).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Local-first AI reasoning observability for Swift: record, diff, attest, and CI-gate agent execution paths. Complements OpenTelemetry and tools like LangSmith — does not replace them.",
+                "homepage": "https://dprovenance.dev",
+                "id": 1269648168,
+                "language": "Swift",
+                "license": "Apache-2.0",
+                "last_commit": "2026-10-31T23:25:34Z",
+                "open_issues": 4,
+                "owner": "Therealdk8890",
+                "repo": "DProvenanceKit",
+                "stars": 7,
+                "topics": [
+                  "agents",
+                  "ai",
+                  "apple",
+                  "attestation",
+                  "cryptography",
+                  "foundation-models",
+                  "llm",
+                  "llm-observability",
+                  "observability",
+                  "on-device-ai",
+                  "provenance",
+                  "regression-testing",
+                  "swift",
+                  "tracing"
+                ]
+              },
+              "first_seen": "2026-10-31T23:26:11.519Z"
+            },
+            {
+              "node_type": "item",
+              "title": "hashspan",
+              "description": "OpenTelemetry instrumentation for AI agents that send on-chain transactions (viem, Coinbase CDP, x402). Records send and confirm spans keyed by the transaction hash, with fees, revert reasons and agent identity, inside the agent's own trace.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "OpenTelemetry instrumentation for viem, the Coinbase CDP SDK, x402 and MPP: trace the transactions and payments your AI agents and services send, keyed by tx hash.",
+                "homepage": "https://hashspan.dev",
+                "id": 1389299914,
+                "language": "TypeScript",
+                "license": "Apache-2.0",
+                "last_commit": "2026-10-31T07:06:29Z",
+                "open_issues": 12,
+                "owner": "selimaytac",
+                "repo": "hashspan",
+                "stars": 6,
+                "topics": [
+                  "agentic-payments",
+                  "ai-agents",
+                  "blockchain",
+                  "coinbase-cdp",
+                  "distributed-tracing",
+                  "ethereum",
+                  "evm",
+                  "llm-observability",
+                  "nodejs",
+                  "observability",
+                  "opentelemetry",
+                  "opentelemetry-instrumentation",
+                  "otel",
+                  "payments",
+                  "tracing",
+                  "typescript",
+                  "viem",
+                  "web3",
+                  "x402"
+                ]
+              },
+              "first_seen": "2026-10-31T23:26:11.519Z"
+            },
+            {
+              "node_type": "item",
               "title": "TraceVerde (genai-otel-instrument)",
               "description": "Comprehensive OpenTelemetry auto-instrumentation for LLM/GenAI applications. Zero-code setup for 19+ LLM providers, 8 multi-agent frameworks, 20+ MCP tools with automatic cost tracking for 1,050+ models and GPU metrics.",
               "children": [],
@@ -376,6 +696,47 @@
           "children": [
             {
               "node_type": "item",
+              "title": "OllyGarden Agent Skills for OpenTelemetry",
+              "description": "Vendor-neutral Agent Skills that give coding agents such as Claude Code, Cursor, and Codex current OpenTelemetry knowledge: SDK setup across languages, Collector configuration and OTTL, semantic conventions, and upgrades. Points agents at upstream sources of truth instead of copying docs.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Vendor-neutral OpenTelemetry skills for AI coding agents like Claude Code, Cursor, and Codex, grounded in upstream sources",
+                "homepage": "https://ollygarden.com/resources/agent-skills",
+                "id": 1174534556,
+                "language": "Go",
+                "license": "Apache-2.0",
+                "last_commit": "2026-10-31T14:04:34Z",
+                "open_issues": 5,
+                "owner": "ollygarden",
+                "repo": "opentelemetry-agent-skills",
+                "stars": 119,
+                "topics": [
+                  "agent-skills",
+                  "ai",
+                  "claude-code",
+                  "codex",
+                  "cursor",
+                  "github-copilot",
+                  "instrumentation",
+                  "observability",
+                  "opentelemetry",
+                  "opentelemetry-collector",
+                  "otel",
+                  "skills"
+                ]
+              },
+              "first_seen": "2026-10-31T23:26:11.519Z"
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Coding Agent Skills"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
               "title": "ros-opentelemetry",
               "description": "End‑to‑End Telemetry for Robotics (ROS2) based on opentelemetry's Python and C++ client libraries.",
               "children": [],
@@ -394,6 +755,48 @@
                 "topics": []
               },
               "first_seen": "2026-08-28T04:23:01.213Z"
+            },
+            {
+              "node_type": "item",
+              "title": "ros2_pulse",
+              "description": "LD_PRELOAD library that counts per-topic publish and callback rates in ROS 2 processes without code changes, with an exporter that pushes them as OTLP metrics or serves them to Prometheus.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "ros2 topic hz for every topic at once, without subscribing. Rates, gaps and node liveness, intra-process included, on stock ROS 2 binaries.",
+                "homepage": "https://tanayk07.github.io/ros2_pulse/",
+                "id": 1291916103,
+                "language": "C++",
+                "license": "Apache-2.0",
+                "last_commit": "2026-10-31T16:11:56Z",
+                "open_issues": 1,
+                "owner": "TanayK07",
+                "repo": "ros2_pulse",
+                "stars": 49,
+                "topics": [
+                  "dds",
+                  "grafana-dashboard",
+                  "humble",
+                  "instrumentation",
+                  "jazzy",
+                  "kilted",
+                  "ld-preload",
+                  "lyrical",
+                  "monitoring",
+                  "observability",
+                  "performance",
+                  "profiling",
+                  "prometheus-exporter",
+                  "rclcpp",
+                  "real-time",
+                  "robotics",
+                  "ros",
+                  "ros2",
+                  "tracing",
+                  "tui"
+                ]
+              },
+              "first_seen": "2026-10-31T23:26:11.519Z"
             }
           ],
           "description": null,
@@ -414,11 +817,11 @@
                 "id": 196414933,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-30T21:32:06Z",
-                "open_issues": 1027,
+                "last_commit": "2026-10-31T14:42:00Z",
+                "open_issues": 1032,
                 "owner": "open-telemetry",
                 "repo": "opentelemetry-collector-contrib",
-                "stars": 5033,
+                "stars": 5034,
                 "topics": [
                   "open-telemetry",
                   "opentelemetry"
@@ -438,8 +841,8 @@
                 "id": 704537857,
                 "language": "Kotlin",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-30T19:32:07Z",
-                "open_issues": 37,
+                "last_commit": "2026-10-31T01:56:16Z",
+                "open_issues": 35,
                 "owner": "embrace-io",
                 "repo": "embrace-android-sdk",
                 "stars": 192,
@@ -486,11 +889,11 @@
                     "id": 185861173,
                     "language": "Go",
                     "license": "Apache-2.0",
-                    "last_commit": "2026-10-30T22:28:20Z",
-                    "open_issues": 712,
+                    "last_commit": "2026-10-31T14:37:02Z",
+                    "open_issues": 711,
                     "owner": "open-telemetry",
                     "repo": "opentelemetry-collector",
-                    "stars": 7722,
+                    "stars": 7725,
                     "topics": [
                       "metrics",
                       "monitoring",
@@ -514,11 +917,11 @@
                     "id": 196414933,
                     "language": "Go",
                     "license": "Apache-2.0",
-                    "last_commit": "2026-10-30T21:32:06Z",
-                    "open_issues": 1027,
+                    "last_commit": "2026-10-31T14:42:00Z",
+                    "open_issues": 1032,
                     "owner": "open-telemetry",
                     "repo": "opentelemetry-collector-contrib",
-                    "stars": 5033,
+                    "stars": 5034,
                     "topics": [
                       "open-telemetry",
                       "opentelemetry"
@@ -545,17 +948,48 @@
                     "id": 196414933,
                     "language": "Go",
                     "license": "Apache-2.0",
-                    "last_commit": "2026-10-30T21:32:06Z",
-                    "open_issues": 1027,
+                    "last_commit": "2026-10-31T14:42:00Z",
+                    "open_issues": 1032,
                     "owner": "open-telemetry",
                     "repo": "opentelemetry-collector-contrib",
-                    "stars": 5033,
+                    "stars": 5034,
                     "topics": [
                       "open-telemetry",
                       "opentelemetry"
                     ]
                   },
                   "first_seen": "2026-08-28T04:23:01.213Z"
+                },
+                {
+                  "node_type": "item",
+                  "title": "TraceShrink",
+                  "description": "Cost-aware OpenTelemetry Collector processor. Keep expensive traces, drop cheap ones. Save up to 98% storage.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "description": "Cost-aware OTel Collector processor. Keep expensive traces, drop cheap ones. Save 98% storage.",
+                    "homepage": null,
+                    "id": 1360535423,
+                    "language": "Go",
+                    "license": "Apache-2.0",
+                    "last_commit": "2026-09-09T05:15:44Z",
+                    "open_issues": 0,
+                    "owner": "TimurRakhmatullin86",
+                    "repo": "traceshrink",
+                    "stars": 1,
+                    "topics": [
+                      "compression",
+                      "cost-optimization",
+                      "llm",
+                      "observability",
+                      "opentelemetry",
+                      "otel",
+                      "performance",
+                      "rust",
+                      "tracing"
+                    ]
+                  },
+                  "first_seen": "2026-10-31T23:26:11.519Z"
                 }
               ],
               "description": "Processors are run on data between being received and being exported. Processors are optional though some are recommended. source",
@@ -576,11 +1010,11 @@
                     "id": 196414933,
                     "language": "Go",
                     "license": "Apache-2.0",
-                    "last_commit": "2026-10-30T21:32:06Z",
-                    "open_issues": 1027,
+                    "last_commit": "2026-10-31T14:42:00Z",
+                    "open_issues": 1032,
                     "owner": "open-telemetry",
                     "repo": "opentelemetry-collector-contrib",
-                    "stars": 5033,
+                    "stars": 5034,
                     "topics": [
                       "open-telemetry",
                       "opentelemetry"
@@ -594,7 +1028,7 @@
               "title": "Exporters"
             }
           ],
-          "description": "Similar to the Agent, the Collector is able to receive spans and place them in an internal queue for processing.\nThe OpenTelemetry collector is a vendor-agnostic way to receive, process and export telemetry data.\nThe Collector consists of three components that access telemetry data:\nFor vendor specific receivers/exporters, see OpenTelemetry Collector Contrib\nTelflo - AI powered OTel Collector configuration manager with a visual drag and drop pipeline editor and OpAMP based remote management. OTelBin - Online Collector Configuration Tool - OTelBin is a visual editor for the collector configuration.",
+          "description": "Similar to the Agent, the Collector is able to receive spans and place them in an internal queue for processing.\nThe OpenTelemetry collector is a vendor-agnostic way to receive, process and export telemetry data.\nThe Collector consists of three components that access telemetry data:\nFor vendor specific receivers/exporters, see OpenTelemetry Collector Contrib\nTelflo - AI powered OTel Collector configuration manager with a visual drag and drop pipeline editor and OpAMP based remote management. OTelBin - Online Collector Configuration Tool - OTelBin is a visual editor for the collector configuration. OpenTelemetry Collector Recipes - Collector configurations validated in CI against a pinned otelcol-contrib version: hardened OTLP agent, file logs to Loki via OTLP and basic PII redaction with OTTL.",
           "node_type": "group",
           "title": "Collector"
         },
@@ -612,11 +1046,11 @@
                 "id": 45721011,
                 "language": "Java",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-30T03:48:51Z",
-                "open_issues": 33,
+                "last_commit": "2026-10-31T14:13:18Z",
+                "open_issues": 32,
                 "owner": "apache",
                 "repo": "skywalking",
-                "stars": 24983,
+                "stars": 24984,
                 "topics": [
                   "apm",
                   "dapper",
@@ -648,11 +1082,11 @@
                 "id": 56342508,
                 "language": "Go",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-30T14:30:05Z",
-                "open_issues": 583,
+                "last_commit": "2026-10-31T20:05:59Z",
+                "open_issues": 591,
                 "owner": "jaegertracing",
                 "repo": "jaeger",
-                "stars": 23359,
+                "stars": 23361,
                 "topics": [
                   "cncf",
                   "distributed-tracing",
@@ -677,11 +1111,11 @@
                 "id": 480217156,
                 "language": "Rust",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-30T15:19:01Z",
+                "last_commit": "2026-10-31T17:11:29Z",
                 "open_issues": 316,
                 "owner": "GreptimeTeam",
                 "repo": "greptimedb",
-                "stars": 6775,
+                "stars": 6778,
                 "topics": [
                   "ai-agents",
                   "cloud-native",
@@ -731,6 +1165,67 @@
                 ]
               },
               "first_seen": "2026-08-28T04:23:01.213Z"
+            },
+            {
+              "node_type": "item",
+              "title": "Fanout",
+              "description": "open source, single-binary OpenTelemetry backend that stores traces, logs and metrics as Parquet and queries them with embedded DuckDB",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Single-binary observability platform. Ingest OTLP, store as Parquet, query with DuckDB.",
+                "homepage": "https://fanout.run",
+                "id": 1116965238,
+                "language": "Go",
+                "license": "Apache-2.0",
+                "last_commit": "2026-10-30T22:51:59Z",
+                "open_issues": 22,
+                "owner": "labstack",
+                "repo": "fanout",
+                "stars": 10,
+                "topics": [
+                  "ai-agent",
+                  "apm",
+                  "duckdb",
+                  "golang",
+                  "logging",
+                  "mcp",
+                  "metrics",
+                  "monitoring",
+                  "observability",
+                  "opentelemetry",
+                  "otlp",
+                  "parquet",
+                  "self-hosted",
+                  "single-binary",
+                  "tracing"
+                ]
+              },
+              "first_seen": "2026-10-31T23:26:11.519Z"
+            },
+            {
+              "node_type": "item",
+              "title": "Bilis",
+              "description": "self-hostable log storage and search: OTLP/HTTP log ingest into ClickHouse with a built-in search and live-tail UI",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Self-hostable log storage and search. Point any OTLP-compatible shipper at one HTTP endpoint, and get a fast, searchable, live-tailing view of your logs — backed by ClickHouse, on your own box.",
+                "homepage": "https://bilis.app",
+                "id": 1347412320,
+                "language": "PHP",
+                "license": "NOASSERTION",
+                "last_commit": "2026-10-28T06:44:39Z",
+                "open_issues": 1,
+                "owner": "bilisapp",
+                "repo": "bilis",
+                "stars": 5,
+                "topics": [
+                  "error-handling",
+                  "logging"
+                ]
+              },
+              "first_seen": "2026-10-31T23:26:11.519Z"
             }
           ],
           "description": "The OpenTelemetry collectors require a persistent storage backend.",
@@ -751,8 +1246,8 @@
                 "id": 82920852,
                 "language": "TypeScript",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-30T14:33:15Z",
-                "open_issues": 201,
+                "last_commit": "2026-10-31T15:40:06Z",
+                "open_issues": 200,
                 "owner": "jaegertracing",
                 "repo": "jaeger-ui",
                 "stars": 1544,
@@ -816,8 +1311,8 @@
                 "id": 1135473716,
                 "language": "TypeScript",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-30T23:34:20Z",
-                "open_issues": 36,
+                "last_commit": "2026-10-31T20:02:19Z",
+                "open_issues": 37,
                 "owner": "kubestellar",
                 "repo": "console",
                 "stars": 152,
@@ -838,6 +1333,41 @@
       "items": [
         {
           "node_type": "item",
+          "title": "otel-budget-check",
+          "description": "GitHub Action that fails PRs when OpenTelemetry telemetry exceeds your budget; catches observability cost and cardinality regressions before merge.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Catch observability cost and cardinality regressions before merge. OTLP budget gate for CI.",
+            "homepage": null,
+            "id": 1343365043,
+            "language": "Python",
+            "license": "MIT",
+            "last_commit": "2026-08-23T04:23:09Z",
+            "open_issues": 0,
+            "owner": "northstarappstudio-ops",
+            "repo": "otel-budget-check",
+            "stars": 0,
+            "topics": [
+              "ci",
+              "cost-optimization",
+              "finops",
+              "github-actions",
+              "observability",
+              "open-telemetry",
+              "opentelemetry"
+            ]
+          },
+          "first_seen": "2026-10-31T23:26:11.519Z"
+        }
+      ],
+      "title": "Tools"
+    },
+    {
+      "description": null,
+      "items": [
+        {
+          "node_type": "item",
           "title": "Mailing Lists",
           "description": "open-telemetry/community",
           "children": [],
@@ -852,7 +1382,7 @@
             "open_issues": 164,
             "owner": "open-telemetry",
             "repo": "community",
-            "stars": 1160,
+            "stars": 1163,
             "topics": [
               "cncf",
               "community",
@@ -877,7 +1407,7 @@
             "open_issues": 164,
             "owner": "open-telemetry",
             "repo": "community",
-            "stars": 1160,
+            "stars": 1163,
             "topics": [
               "cncf",
               "community",
@@ -891,7 +1421,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-30T23:52:32.909Z",
+    "last_updated": "2026-10-31T23:26:11.519Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated list of OpenTelemetry resources",
@@ -899,11 +1429,11 @@
       "id": 457894790,
       "language": null,
       "license": "CC0-1.0",
-      "last_commit": "2026-06-09T14:29:04Z",
-      "open_issues": 33,
+      "last_commit": "2026-10-31T18:42:03Z",
+      "open_issues": 5,
       "owner": "magsther",
       "repo": "awesome-opentelemetry",
-      "stars": 987,
+      "stars": 988,
       "topics": [
         "awesome-list",
         "distributed-tracing",
@@ -913,7 +1443,7 @@
         "tracing"
       ]
     },
-    "original_repository_sha": "0ec498600bfbbbceb293b8e13ca1de08ffb57c24",
+    "original_repository_sha": "67afd814d2b5bc8d430e2b001b1b25d903a1d192",
     "enhanced_repository": "enhansome/enhansome-opentelemetry",
     "enhanced_repository_description": null,
     "title": "Awesome OpenTelemetry with stars"
