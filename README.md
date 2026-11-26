@@ -183,11 +183,11 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 ### Open Source
 
-* [Manifest](https://manifest.build) ([GitHub](https://github.com/mnfst/manifest) ⭐ 7,654 | 🐛 52 | 🌐 TypeScript | 📅 2026-11-24) - Open-source real-time cost observability for AI agents. OTLP-native, accepts standard OpenTelemetry signals via HTTP (JSON and Protobuf). Tracks tokens, costs, messages, and model usage. Self-hostable and privacy-focused.
+* [Manifest](https://manifest.build) ([GitHub](https://github.com/mnfst/manifest) ⭐ 7,655 | 🐛 53 | 🌐 TypeScript | 📅 2026-11-24) - Open-source real-time cost observability for AI agents. OTLP-native, accepts standard OpenTelemetry signals via HTTP (JSON and Protobuf). Tracks tokens, costs, messages, and model usage. Self-hostable and privacy-focused.
 * [Tracetest](https://github.com/kubeshop/tracetest) ⭐ 1,330 | 🐛 224 | 🌐 Go | 📅 2025-06-03
 * [Teletrace](https://github.com/teletrace/teletrace) ⚠️ Archived - **Deprecated**
-* [traceAI](https://github.com/future-agi/traceAI) ⭐ 267 | 🐛 138 | 🌐 Python | 📅 2026-11-24 - Open-source OpenTelemetry-native instrumentation framework for AI applications that auto-instruments 20+ LLM providers and agent frameworks, capturing prompts, tokens, latency, and errors with zero code changes.
-* [playwright-opentelemetry](https://github.com/endformdev/playwright-opentelemetry) ⭐ 31 | 🐛 3 | 🌐 TypeScript | 📅 2026-11-24 - OpenTelemetry traces from Playwright tests - with context propagation, OTLP export, and a viewer that pairs browser screenshots with backend spans.
+* [traceAI](https://github.com/future-agi/traceAI) ⭐ 267 | 🐛 138 | 🌐 Python | 📅 2026-11-25 - Open-source OpenTelemetry-native instrumentation framework for AI applications that auto-instruments 20+ LLM providers and agent frameworks, capturing prompts, tokens, latency, and errors with zero code changes.
+* [playwright-opentelemetry](https://github.com/endformdev/playwright-opentelemetry) ⭐ 31 | 🐛 3 | 🌐 TypeScript | 📅 2026-11-25 - OpenTelemetry traces from Playwright tests - with context propagation, OTLP export, and a viewer that pairs browser screenshots with backend spans.
 * [Agent-SRE](https://github.com/imran-siddique/agent-sre) ⚠️ Archived - AI-native SRE framework with OTel-compatible SLI/SLO metrics, chaos test spans, and canary deployment traces for AI agent observability
 * [Flare](https://github.com/aminparsa18/Flare.Net) ⭐ 6 | 🐛 1 | 🌐 C# | 📅 2026-11-13 - Self-hosted, OTLP-native observability platform for .NET. Logs, traces and metrics correlated in one UI, stored in ClickHouse, with alerting and a .NET Aspire hosting integration.
 * [Agent-Hypervisor](https://github.com/imran-siddique/agent-hypervisor) ⚠️ Archived - Runtime supervisor for multi-agent systems with a structured event bus (40+ event types) that exports ring transitions, saga steps, and liability events as distributed traces
@@ -287,15 +287,15 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 ### GenAI / LLM Instrumentation
 
-* [@open-multi-agent/otel](https://github.com/open-multi-agent/open-multi-agent/tree/main/packages/otel) ⭐ 7,077 | 🐛 8 | 🌐 TypeScript | 📅 2026-11-24 - Optional TypeScript adapter that maps OMA TraceRecord v2 batches to OpenTelemetry spans, events, and links through an application-owned tracer or provider; the core package keeps no OpenTelemetry runtime dependency.
-* [Atomic Agents](https://github.com/eigenwise/atomic-agents) ⭐ 6,347 | 🐛 21 | 🌐 Python | 📅 2026-11-22 - Python agent framework with built-in OpenTelemetry instrumentation. Emits GenAI semantic-convention spans (invoke\_agent, execute\_tool, chat) with only opentelemetry-api installed, so traces go to any OTLP backend.
-* [Pydantic Logfire SDK](https://github.com/pydantic/logfire) ⭐ 4,566 | 🐛 260 | 🌐 Python | 📅 2026-11-24 - OpenTelemetry-native observability platform and SDK from the Pydantic team. Auto-instruments Pydantic AI, OpenAI, Anthropic, LangChain and other AI frameworks, emitting standard OTel spans consumable by any OTLP-compatible backend.
-* [Future AGI](https://github.com/future-agi/future-agi) ⭐ 2,294 | 🐛 934 | 🌐 Python | 📅 2026-11-25 - Open-source end-to-end LLM/agent platform with OpenTelemetry-native tracing (via traceAI), evals, simulations, gateway, and guardrails. Auto-instruments 20+ AI frameworks and LLM providers.
-* [ClawMetry](https://github.com/vivekchand/clawmetry) ⭐ 440 | 🐛 71 | 🌐 Python | 📅 2026-11-25 - Self-hosted observability for coding agents, with a built-in OTLP receiver on `/v1/traces`, `/v1/metrics` and `/v1/logs`. Point any OpenTelemetry SDK or collector at it and those spans land in the same dashboard as the agent sessions it reads from disk. [Website](https://clawmetry.com)
+* [@open-multi-agent/otel](https://github.com/open-multi-agent/open-multi-agent/tree/main/packages/otel) ⭐ 7,080 | 🐛 12 | 🌐 TypeScript | 📅 2026-11-25 - Optional TypeScript adapter that maps OMA TraceRecord v2 batches to OpenTelemetry spans, events, and links through an application-owned tracer or provider; the core package keeps no OpenTelemetry runtime dependency.
+* [Atomic Agents](https://github.com/eigenwise/atomic-agents) ⭐ 6,349 | 🐛 21 | 🌐 Python | 📅 2026-11-22 - Python agent framework with built-in OpenTelemetry instrumentation. Emits GenAI semantic-convention spans (invoke\_agent, execute\_tool, chat) with only opentelemetry-api installed, so traces go to any OTLP backend.
+* [Pydantic Logfire SDK](https://github.com/pydantic/logfire) ⭐ 4,568 | 🐛 265 | 🌐 Python | 📅 2026-11-25 - OpenTelemetry-native observability platform and SDK from the Pydantic team. Auto-instruments Pydantic AI, OpenAI, Anthropic, LangChain and other AI frameworks, emitting standard OTel spans consumable by any OTLP-compatible backend.
+* [Future AGI](https://github.com/future-agi/future-agi) ⭐ 2,298 | 🐛 900 | 🌐 Python | 📅 2026-11-26 - Open-source end-to-end LLM/agent platform with OpenTelemetry-native tracing (via traceAI), evals, simulations, gateway, and guardrails. Auto-instruments 20+ AI frameworks and LLM providers.
+* [ClawMetry](https://github.com/vivekchand/clawmetry) ⭐ 440 | 🐛 65 | 🌐 Python | 📅 2026-11-26 - Self-hosted observability for coding agents, with a built-in OTLP receiver on `/v1/traces`, `/v1/metrics` and `/v1/logs`. Point any OpenTelemetry SDK or collector at it and those spans land in the same dashboard as the agent sessions it reads from disk. [Website](https://clawmetry.com)
 * [heimdall-mcp](https://github.com/enmanuelmag/heimdall-mcp) ⭐ 11 | 🐛 0 | 🌐 TypeScript | 📅 2026-07-16 - Transparent proxy for any MCP server that intercepts JSON-RPC messages, measures latency, and exports OpenTelemetry-native spans to any OTLP-compatible backend (Jaeger, Tempo, Grafana) without modifying the original server.
 * [Voight](https://github.com/Voightxyz/voight-vercel-ai) ⭐ 10 | 🐛 1 | 🌐 TypeScript | 📅 2026-10-03 - OpenTelemetry SpanExporter for the Vercel AI SDK mapping `gen_ai.*` semconv spans to a hosted dashboard. Direct OpenAI / Anthropic wrappers ship the same spans via `otel: true` with built-in dedup.
-* [DProvenanceKit](https://github.com/Therealdk8890/DProvenanceKit) ⭐ 8 | 🐛 3 | 🌐 Swift | 📅 2026-11-24 - Swift library for reasoning observability and regression testing of AI agents. Its zero-dependency DProvenanceOTel bridge maps trace runs to OTLP/JSON and promotes Apple FoundationModels calls to `gen_ai.*` semconv spans, exporting to Langfuse or any OTLP/HTTP collector (Apache 2.0).
-* [Cognipeer Agent SDK](https://github.com/Cognipeer/agent-sdk) ⭐ 7 | 🐛 3 | 🌐 TypeScript | 📅 2026-11-24 - TypeScript agent runtime that can export a run's trace to any OTLP/HTTP collector as OpenTelemetry GenAI spans (`invoke_agent`, `chat`, `execute_tool`), with no runtime dependency on the OpenTelemetry packages.
+* [DProvenanceKit](https://github.com/Therealdk8890/DProvenanceKit) ⭐ 7 | 🐛 3 | 🌐 Swift | 📅 2026-11-25 - Swift library for reasoning observability and regression testing of AI agents. Its zero-dependency DProvenanceOTel bridge maps trace runs to OTLP/JSON and promotes Apple FoundationModels calls to `gen_ai.*` semconv spans, exporting to Langfuse or any OTLP/HTTP collector (Apache 2.0).
+* [Cognipeer Agent SDK](https://github.com/Cognipeer/agent-sdk) ⭐ 7 | 🐛 2 | 🌐 TypeScript | 📅 2026-11-24 - TypeScript agent runtime that can export a run's trace to any OTLP/HTTP collector as OpenTelemetry GenAI spans (`invoke_agent`, `chat`, `execute_tool`), with no runtime dependency on the OpenTelemetry packages.
 * [hashspan](https://github.com/selimaytac/hashspan) ⭐ 6 | 🐛 25 | 🌐 TypeScript | 📅 2026-11-13 - OpenTelemetry instrumentation for AI agents that send on-chain transactions (viem, Coinbase CDP, x402). Records send and confirm spans keyed by the transaction hash, with fees, revert reasons and agent identity, inside the agent's own trace.
 * [TraceVerde (genai-otel-instrument)](https://github.com/Mandark-droid/genai_otel_instrument) ⭐ 3 | 🐛 2 | 🌐 Python | 📅 2026-11-18 - Comprehensive OpenTelemetry auto-instrumentation for LLM/GenAI applications. Zero-code setup for 19+ LLM providers, 8 multi-agent frameworks, 20+ MCP tools with automatic cost tracking for 1,050+ models and GPU metrics.
 * [TWZRD Agent Intel](https://intel.twzrd.xyz) - On-chain trust scoring and behavioral tracing for AI agent wallets on Solana. MCP server (, ) — use in agentic OTel pipelines to enrich agent spans with on-chain identity and trust score attributes before x402 micropayment-gated resource access. [MCP](https://intel.twzrd.xyz/mcp)
@@ -305,12 +305,12 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 ### Coding Agent Skills
 
-* [OllyGarden Agent Skills for OpenTelemetry](https://github.com/ollygarden/opentelemetry-agent-skills) ⭐ 126 | 🐛 7 | 🌐 Go | 📅 2026-11-24 - Vendor-neutral [Agent Skills](https://agentskills.io) that give coding agents such as Claude Code, Cursor, and Codex current OpenTelemetry knowledge: SDK setup across languages, Collector configuration and OTTL, semantic conventions, and upgrades. Points agents at upstream sources of truth instead of copying docs.
+* [OllyGarden Agent Skills for OpenTelemetry](https://github.com/ollygarden/opentelemetry-agent-skills) ⭐ 126 | 🐛 8 | 🌐 Go | 📅 2026-11-25 - Vendor-neutral [Agent Skills](https://agentskills.io) that give coding agents such as Claude Code, Cursor, and Codex current OpenTelemetry knowledge: SDK setup across languages, Collector configuration and OTTL, semantic conventions, and upgrades. Points agents at upstream sources of truth instead of copying docs.
 
 ### ROS2 / Robotics
 
 * [ros-opentelemetry](https://github.com/szobov/ros-opentelemetry) ⭐ 128 | 🐛 0 | 🌐 Python | 📅 2025-11-16 - End‑to‑End Telemetry for Robotics ([ROS2](https://www.ros.org)) based on opentelemetry's Python and C++ client libraries.
-* [ros2\_pulse](https://github.com/TanayK07/ros2_pulse) ⭐ 58 | 🐛 2 | 🌐 C++ | 📅 2026-11-07 - LD\_PRELOAD library that counts per-topic publish and callback rates in ROS 2 processes without code changes, with an exporter that pushes them as OTLP metrics or serves them to Prometheus.
+* [ros2\_pulse](https://github.com/TanayK07/ros2_pulse) ⭐ 59 | 🐛 2 | 🌐 C++ | 📅 2026-11-07 - LD\_PRELOAD library that counts per-topic publish and callback rates in ROS 2 processes without code changes, with an exporter that pushes them as OTLP metrics or serves them to Prometheus.
 
 ### Infrastructure Monitoring
 
@@ -332,8 +332,8 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 Distributions and vendors who natively support OpenTelemetry in their commercial products.
 
-* [F5](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/exporter/f5cloudexporter) ⭐ 5,065 | 🐛 1,148 | 🌐 Go | 📅 2026-11-25
-* Embrace ([Android](https://github.com/embrace-io/embrace-android-sdk) ⭐ 193 | 🐛 18 | 🌐 Kotlin | 📅 2026-11-25 | [iOS](https://github.com/embrace-io/embrace-apple-sdk) ⭐ 147 | 🐛 30 | 🌐 Swift | 📅 2026-11-25)
+* [F5](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/exporter/f5cloudexporter) ⭐ 5,065 | 🐛 1,161 | 🌐 Go | 📅 2026-11-26
+* Embrace ([Android](https://github.com/embrace-io/embrace-android-sdk) ⭐ 193 | 🐛 12 | 🌐 Kotlin | 📅 2026-11-25 | [iOS](https://github.com/embrace-io/embrace-apple-sdk) ⭐ 147 | 🐛 31 | 🌐 Swift | 📅 2026-11-25)
 * [Aspecto](https://www.aspecto.io/)
 * [AWS](https://aws-otel.github.io/)
 * [Azure](https://docs.microsoft.com/azure/azure-monitor/app/opentelemetry-overview)
@@ -391,7 +391,7 @@ Client libraries used to instrument applications for distributed tracing.
 
 ![OpenTelemetry Client Architecture](./docs/images/otel-specification.png)
 
-Refer from [OpenTelemetry Official Document](https://github.com/open-telemetry/opentelemetry-specification/blob/main/specification/overview.md) ⭐ 4,401 | 🐛 268 | 🌐 Makefile | 📅 2026-11-25
+Refer from [OpenTelemetry Official Document](https://github.com/open-telemetry/opentelemetry-specification/blob/main/specification/overview.md) ⭐ 4,403 | 🐛 271 | 🌐 Makefile | 📅 2026-11-25
 
 ***
 
@@ -423,7 +423,7 @@ The Collector consists of three components that access telemetry data:
 * [Processors](https://opentelemetry.io/docs/collector/configuration/#processors) - Processors are run on data between being received and being exported.
 * [Exporters](https://opentelemetry.io/docs/collector/configuration/#exporters) - How you send data to one or more backends/destinations
 
-For vendor specific receivers/exporters, see [OpenTelemetry Collector Contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib) ⭐ 5,065 | 🐛 1,148 | 🌐 Go | 📅 2026-11-25
+For vendor specific receivers/exporters, see [OpenTelemetry Collector Contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib) ⭐ 5,065 | 🐛 1,161 | 🌐 Go | 📅 2026-11-26
 
 [Telflo](https://telflo.com) - AI powered OTel Collector configuration manager with a visual drag and drop pipeline editor and OpAMP based remote management.
 [OTelBin - Online Collector Configuration Tool](https://www.otelbin.io) - OTelBin is a visual editor for the collector configuration.
@@ -432,16 +432,16 @@ For vendor specific receivers/exporters, see [OpenTelemetry Collector Contrib](h
 #### Receivers
 
 > A receiver is how data gets into the OpenTelemetry Collector. Generally, a receiver accepts data in a specified format, translates it into the internal format and passes it to processors and exporters defined in the applicable pipelines.
-> [source](https://github.com/open-telemetry/opentelemetry-collector/blob/main/receiver/README.md) ⭐ 7,804 | 🐛 711 | 🌐 Go | 📅 2026-11-24
+> [source](https://github.com/open-telemetry/opentelemetry-collector/blob/main/receiver/README.md) ⭐ 7,810 | 🐛 710 | 🌐 Go | 📅 2026-11-25
 
-[List of supported receivers](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver) ⭐ 5,065 | 🐛 1,148 | 🌐 Go | 📅 2026-11-25
+[List of supported receivers](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver) ⭐ 5,065 | 🐛 1,161 | 🌐 Go | 📅 2026-11-26
 
 #### Processors
 
-> Processors are run on data between being received and being exported. Processors are optional though [some are recommended](https://github.com/open-telemetry/opentelemetry-collector/tree/main/processor#recommended-processors) ⭐ 7,804 | 🐛 711 | 🌐 Go | 📅 2026-11-24.
+> Processors are run on data between being received and being exported. Processors are optional though [some are recommended](https://github.com/open-telemetry/opentelemetry-collector/tree/main/processor#recommended-processors) ⭐ 7,810 | 🐛 710 | 🌐 Go | 📅 2026-11-25.
 > [source](https://opentelemetry.io/docs/collector/configuration/#processors)
 
-[List of supported processors](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/processor) ⭐ 5,065 | 🐛 1,148 | 🌐 Go | 📅 2026-11-25
+[List of supported processors](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/processor) ⭐ 5,065 | 🐛 1,161 | 🌐 Go | 📅 2026-11-26
 
 * [TraceShrink](https://github.com/TimurRakhmatullin86/traceshrink) ⭐ 1 | 🐛 0 | 🌐 Go | 📅 2026-09-09 - Cost-aware OpenTelemetry Collector processor. Keep expensive traces, drop cheap ones. Save up to 98% storage.
 
@@ -449,7 +449,7 @@ For vendor specific receivers/exporters, see [OpenTelemetry Collector Contrib](h
 
 > An exporter is how you send data to one or more backends/destinations. Exporters may support one or more data sources.
 
-[List of supported exporters](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/exporter) ⭐ 5,065 | 🐛 1,148 | 🌐 Go | 📅 2026-11-25
+[List of supported exporters](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/exporter) ⭐ 5,065 | 🐛 1,161 | 🌐 Go | 📅 2026-11-26
 
 ***
 
@@ -463,11 +463,11 @@ For vendor specific receivers/exporters, see [OpenTelemetry Collector Contrib](h
 
 The OpenTelemetry collectors require a persistent storage backend.
 
-* [SkyWalking](https://github.com/apache/skywalking) ⭐ 25,028 | 🐛 38 | 🌐 Java | 📅 2026-11-25 - open source APM system
-* [Jaeger](https://github.com/jaegertracing/jaeger) ⭐ 23,442 | 🐛 609 | 🌐 Go | 📅 2026-11-24 - distributed tracing platform created by Uber Technologies
-* [GreptimeDB](https://github.com/GreptimeTeam/greptimedb) ⭐ 6,828 | 🐛 357 | 🌐 Rust | 📅 2026-11-25 - open source unified observability database for metrics, logs, and traces
+* [SkyWalking](https://github.com/apache/skywalking) ⭐ 25,029 | 🐛 37 | 🌐 Java | 📅 2026-11-26 - open source APM system
+* [Jaeger](https://github.com/jaegertracing/jaeger) ⭐ 23,447 | 🐛 613 | 🌐 Go | 📅 2026-11-26 - distributed tracing platform created by Uber Technologies
+* [GreptimeDB](https://github.com/GreptimeTeam/greptimedb) ⭐ 6,833 | 🐛 364 | 🌐 Rust | 📅 2026-11-26 - open source unified observability database for metrics, logs, and traces
 * [Teletrace](https://github.com/teletrace/teletrace) ⚠️ Archived - Open source distributed tracing tool.
-* [Fanout](https://github.com/labstack/fanout) ⭐ 158 | 🐛 30 | 🌐 Go | 📅 2026-11-23 - open source, single-binary OpenTelemetry backend that stores traces, logs and metrics as Parquet and queries them with embedded DuckDB
+* [Fanout](https://github.com/labstack/fanout) ⭐ 158 | 🐛 30 | 🌐 Go | 📅 2026-11-25 - open source, single-binary OpenTelemetry backend that stores traces, logs and metrics as Parquet and queries them with embedded DuckDB
 * [Bilis](https://github.com/bilisapp/bilis) ⭐ 5 | 🐛 0 | 🌐 PHP | 📅 2026-11-16 - self-hostable log storage and search: OTLP/HTTP log ingest into ClickHouse with a built-in search and live-tail UI
 * [Cassandra](https://cassandra.apache.org/_/index.html) - open source NoSQL distributed database
 * [Elastic](https://www.elastic.co) - open search and analytics solution
@@ -488,9 +488,9 @@ You can optional use an **Ingester**, which is a service that reads data from Ka
 
 Visualizing the distributed tracing data.
 
-* [Jaeger](https://github.com/jaegertracing/jaeger-ui) ⭐ 1,550 | 🐛 201 | 🌐 TypeScript | 📅 2026-11-25
+* [Jaeger](https://github.com/jaegertracing/jaeger-ui) ⭐ 1,550 | 🐛 200 | 🌐 TypeScript | 📅 2026-11-25
 * [Teletrace](https://github.com/teletrace/teletrace) ⚠️ Archived
-* [KubeStellar Console](https://github.com/kubestellar/console) ⭐ 155 | 🐛 103 | 🌐 TypeScript | 📅 2026-11-24 - Open source AI-powered multi-cluster Kubernetes dashboard with OpenTelemetry support for real-time observability across hybrid edge and cloud. CNCF Sandbox project.
+* [KubeStellar Console](https://github.com/kubestellar/console) ⭐ 155 | 🐛 111 | 🌐 TypeScript | 📅 2026-11-25 - Open source AI-powered multi-cluster Kubernetes dashboard with OpenTelemetry support for real-time observability across hybrid edge and cloud. CNCF Sandbox project.
 * [Oodle AI](https://oodle.ai) - AI-native observability platform for infrastructure, applications and AI agents. Compatible with OpenTelemetry, drop-in replacement for Prometheus, Grafana, Elasticsearch.
 * [TelemetryHub](https://telemetryhub.com/)
 * [Zipkin](https://zipkin.io)
@@ -548,8 +548,8 @@ Visualizing the distributed tracing data.
 
 ## Community
 
-* [Mailing Lists](https://github.com/open-telemetry/community#mailing-lists) ⭐ 1,174 | 🐛 166 | 🌐 Python | 📅 2026-11-24
-* [OpenTelemetry community content](https://github.com/open-telemetry/community) ⭐ 1,174 | 🐛 166 | 🌐 Python | 📅 2026-11-24
+* [Mailing Lists](https://github.com/open-telemetry/community#mailing-lists) ⭐ 1,175 | 🐛 169 | 🌐 Python | 📅 2026-11-24
+* [OpenTelemetry community content](https://github.com/open-telemetry/community) ⭐ 1,175 | 🐛 169 | 🌐 Python | 📅 2026-11-24
 * [Join the OpenTelemetry community](https://opentelemetry.io/community/)
 * [OpenTelemetry Public Calendar](https://calendar.google.com/calendar/embed?src=google.com_b79e3e90j7bbsa2n2p5an5lf60%40group.calendar.google.com)
 * [Chat with other project developers on Slack](https://cloud-native.slack.com/archives/CJFCJHG4Q)
@@ -560,4 +560,4 @@ Visualizing the distributed tracing data.
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-25._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-26._
